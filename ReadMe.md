@@ -1,6 +1,6 @@
 # Hinweise zum Programmierbeispiel
 
-<Juergen.Zimmermann@HS-Karlsruhe.de>
+<Gruppe 6>
 
 > Diese Datei ist in Markdown geschrieben und kann mit `<Strg><Shift>v` in
 > Visual Studio Code leicht gelesen werden.
@@ -10,39 +10,12 @@
 > Nur in den ersten beiden Vorlesungswochen kann es Unterstützung bei
 > Installationsproblemen geben.
 
-## Vorbereitung der Installation
-
--   Das Beispiel _nicht_ in einem Pfad mit _Leerzeichen_ installieren.
-    Viele Javascript-Bibliotheken werden unter Linux entwickelt und dort benutzt
-    man keine Leerzeichen in Pfaden. Ebenso würde ich das Beispiel nicht auf dem
-    _Desktop_ auspacken bzw. installieren.
-
--   Bei [GitHub](https://github.com) registrieren, falls man dort noch nicht registriert ist.
-
--   _Proxy_ für die Installation an der _Hochschule_ in einer Powershell
-    konfigurieren:
-    -   `USERNAME` ist der Platzhalter für die Benutzerkennung für die Poolrechner,
-    -   `PASSWORD` für das zugehörige Passwort
-
-```CMD
-    npm c set proxy http://USERNAME:PASSWORD@proxy.hs-karlsruhe.de:8888
-    npm c set https-proxy http://USERNAME:PASSWORD@proxy.hs-karlsruhe.de:8888
-    git config --global http.proxy http://USERNAME:PASSWORD@proxy.hs-karlsruhe.de:8888
-    git config --global https.proxy http://USERNAME:PASSWORD@proxy.hs-karlsruhe.de:8888
-    git config --global url."http://".insteadOf git://
-```
-
 ## Installation
 
--   _Falls es das Unterverzeichnis `node_modules` **NICHT** gibt_:
-    Installation durch npm (Node Package Manager) in einer Powershell (s.u.), :
-    -   Die Installation der Software-Pakete erfolgt i.a. über [NPM](http://www.npmjs.com)
-        und damit über den Port 80 (oder 443 bei https). Wenn `git` benötigt wird,
-        dann wird `ssh` aufgerufen und deshalb _Port 22_ benötigt.
-    -   Eine persönliche Firewall o.ä. kann diesen Port blockieren.
-        Dann funktioniert die Installation natürlich _nicht_ und man muss z.B.
-        die eigene Firewall geeignet konfigurieren oder vorübergehend ausschalten.
-    -   Der Port 22 ist am Hochschul-Proxy nicht freigeschaltet.
+-   _Das Unterverzeichnis `node_modules`_:
+    -   Das Unterverzeichnis node_modules sollte aus dem Beispiel-Projekt hier her kopiert werden.
+
+    -   Die **_(zur Zeit nicht funktionierende)_** Alternative ist ein cmd Befehl im Projektverzeichnis
 
 ```CMD
     npm i
