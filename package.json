@@ -1,0 +1,23 @@
+{
+  "name": "abgabe_1",
+  "version": "1.0.0",
+  "description": "Eine Applikation, um Artikel abzuspeichern",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mr-goez/abgabe1.git"
+  },
+  "keywords": [
+    "abgabe1",
+    "artikel"
+  ],
+  "author": "Juergen Zimmermann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-goez/abgabe1/issues"
+  },
+  "homepage": "https://github.com/mr-goez/abgabe1#readme"
+}
