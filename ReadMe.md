@@ -20,6 +20,14 @@
 ```CMD
     npm i
 ```
+## Ein Artikel hat folgende Attribute
+
+-   _id
+-   EAN
+-   Bezeichnung
+-   Preis
+-   Verfügbarkeit
+-   Hersteller sdfas
 
 ## Künftige Routineaufgaben
 
