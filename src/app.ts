@@ -16,7 +16,7 @@ class App {
         router
             .route('/')
             .get(helloWorld) // Nachverfolgen...
-        this.app.use(router) 
+        this.app.use(router)
         // extrem wichtig sonst bringt der router nichts!!! Schaut in sein Beispiel wie er das routing aufteilt
     }
 }
