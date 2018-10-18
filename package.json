@@ -1,10 +1,9 @@
 {
-    "name": "beispiel",
+    "name": "artikelliste",
     "version": "1.0.0",
-    "description": "Beispiel",
+    "description": "a simple article list",
     "main": "dist/index.js",
     "scripts": {
-        "prestart": "ts-node scripts/init",
         "start": "nodemon -V",
         "pretest": "npm run mongo import && if exist server.log del server.log && ts-node scripts/init",
         "test": "npx --no-install mocha dist\\buch\\rest\\index.spec.js",
@@ -29,7 +28,7 @@
         }
     },
     "private": true,
-    "homepage": "https://www.hs-karlsruhe.de",
+    "homepage": "http://github.com/mr-goez/Abgabe1",
     "pre-commit": [
         "node scripts/tslint"
     ],
@@ -56,7 +55,7 @@
         "winston",
         "nodemon"
     ],
-    "author": "Juergen Zimmermann",
+    "author": "Gruppe 6",
     "license": "GPL-3.0",
     "dependencies": {
         "ajv": "6.5.4",
@@ -71,6 +70,7 @@
         "graphql": "14.0.2",
         "graphql-tools": "4.0.0",
         "gridfs-stream": "1.1.1",
+        "helmet": "3.13.0",
         "jws": "3.1.5",
         "minimist": "1.2.0",
         "mongodb": "3.1.6",
@@ -84,7 +84,8 @@
         "router": "1.3.3",
         "spdy": "3.4.7",
         "uuid": "3.3.2",
-        "validator": "10.8.0"
+        "validator": "10.8.0",
+        "winston": "3.1.0"
     },
     "devDependencies": {
         "@types/bcrypt": "3.0.0",
@@ -127,7 +128,6 @@
         "chai": "4.2.0",
         "chai-string": "1.5.0",
         "fixme": "0.5.0",
-        "helmet": "3.13.0",
         "husky": "1.1.0",
         "inquirer": "6.2.0",
         "mocha": "5.2.0",
@@ -143,7 +143,6 @@
         "tslib": "1.9.3",
         "tslint": "5.11.0",
         "tslint-config-security": "1.5.0",
-        "typescript": "3.1.1",
-        "winston": "3.1.0"
+        "typescript": "3.1.1"
     }
 }
