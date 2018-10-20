@@ -13,9 +13,7 @@ class App {
 
     private routes() {
         const router = Router()
-        router
-            .route('/')
-            .get(helloWorld) // Nachverfolgen...
+        router.route('/').get(helloWorld) // Nachverfolgen...
         this.app.use(router)
         // extrem wichtig sonst bringt der router nichts!!! Schaut in sein Beispiel wie er das routing aufteilt
     }

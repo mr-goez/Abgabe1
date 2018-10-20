@@ -23,3 +23,34 @@ debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-18T21:56:53.075Z"}
 debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-18T21:56:53.077Z"}
 info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-18T21:58:00.173Z"}
 info: http://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-18T21:58:00.196Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-19T06:00:51.974Z"}
+info: http://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-19T06:00:52.016Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-19T06:01:40.981Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-19T06:01:40.981Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-19T06:01:41.002Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-19T11:30:41.877Z"}
+info: http://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-19T11:30:41.950Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-19T11:31:38.944Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-19T11:31:38.945Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-19T11:31:38.966Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-19T11:39:59.375Z"}
+info: http://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-19T11:39:59.418Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-20T17:50:25.567Z"}
+error: { MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (C:\Users\caner\Desktop\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (C:\Users\caner\Desktop\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\connection\pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (C:\Users\caner\Desktop\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\connection\connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} } {"timestamp":"2018-10-20T17:50:30.209Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-20T17:54:26.875Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-20T17:54:28.027Z"}
+info: http://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-20T17:54:28.032Z"}
