@@ -4,6 +4,7 @@
     "description": "a simple article list",
     "main": "dist/index.js",
     "scripts": {
+        "prestart": "ts-node scripts/init",
         "start": "nodemon -V",
         "pretest": "npm run mongo import && if exist server.log del server.log && ts-node scripts/init",
         "test": "npx --no-install mocha dist\\buch\\rest\\index.spec.js",

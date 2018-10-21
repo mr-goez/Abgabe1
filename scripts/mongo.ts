@@ -1,20 +1,3 @@
-/*
- * Copyright (C) 2016 - 2018 Juergen Zimmermann, Hochschule Karlsruhe
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 import * as minimist from 'minimist'
 import * as path from 'path'
 import * as shell from 'shelljs'
@@ -44,13 +27,13 @@ const mongoimport = () => {
     const dbDir = 'config/db'
     shell.exec(
         `mongoimport -v ${db} ${auth} ${ssl} --stopOnError --drop ` +
-        `  --file ${dbDir}/article.json --maintainInsertionOrder`)
+        `  --file ${dbDir}/article.json --maintainInsertionOrder -h localhost`)
 }
 
 const mongoexport = () => {
     shell.exec(
         `mongoexport -v ${db} ${auth} ${ssl} ` +
-        '-c Article -o EXPORT.article.json --pretty')
+        '-c article -o EXPORT.article.json --pretty')
 }
 
 const mongoexpress = () => {

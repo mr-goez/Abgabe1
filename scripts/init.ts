@@ -7,24 +7,24 @@ import {dir} from './shared'
 
 const {src, config, dist} = dir
 
-/* eslint-disable no-console */
-// JSON-Dateien kopieren
-const jsonSrc = path.join(src, 'auth', 'service', 'json')
-const jsonDist = path.join(dist, 'auth', 'service', 'json')
-fs.copy(jsonSrc, jsonDist, err => {
-    if (err) {
-        return console.error(err)
-    }
-})
+// /* eslint-disable no-console */
+// // JSON-Dateien kopieren
+// const jsonSrc = path.join(src, 'auth', 'service', 'json')
+// const jsonDist = path.join(dist, 'auth', 'service', 'json')
+// fs.copy(jsonSrc, jsonDist, err => {
+//     if (err) {
+//         return console.error(err)
+//     }
+// })
 
-// PEM-Dateien fuer JWT kopieren
-const jwtPemSrc = path.join(src, 'auth', 'service', 'jwt')
-const jwtPemDist = path.join(dist, 'auth', 'service', 'jwt')
-fs.copy(jwtPemSrc, jwtPemDist, err => {
-    if (err) {
-        return console.error(err)
-    }
-})
+// // PEM-Dateien fuer JWT kopieren
+// const jwtPemSrc = path.join(src, 'auth', 'service', 'jwt')
+// const jwtPemDist = path.join(dist, 'auth', 'service', 'jwt')
+// fs.copy(jwtPemSrc, jwtPemDist, err => {
+//     if (err) {
+//         return console.error(err)
+//     }
+// })
 
 // PEM- und Zertifikatdateien fuer HTTPS kopieren
 const httpsSrc = path.join(config, 'https')
