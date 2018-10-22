@@ -4,7 +4,7 @@ import { log, logger } from '../../shared'
 
 import { MIME_CONFIG } from '../../shared/config/mime'
 
-class ArtikelRequestHandler {
+class ArticelRequestHandler {
     @log
     // tslint:disable-next-line:max-line-length
     helloWorld(req: Request, res: Response) {
