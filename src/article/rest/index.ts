@@ -1,10 +1,21 @@
 import { Request, Response } from 'express'
+import * as mongoose from 'mongoose'
+import { inspect } from 'util'
 
 import { log, logger } from '../../shared'
 
 import { MIME_CONFIG } from '../../shared/config/mime'
 
-class ArticelRequestHandler {
+import { Article } from '../model/article'
+
+import { ArticleService } from '../service/article.service'
+import { EanExistsError, ValidationError } from '../service/exceptions'
+
+import { getBaseUri } from '../../shared/base-uri'
+
+class ArticleRequestHandler {
+    private readonly articleService = new ArticleService()
+
     @log
     // tslint:disable-next-line:max-line-length
     helloWorld(req: Request, res: Response) {
@@ -18,31 +29,33 @@ class ArticelRequestHandler {
     }
 
     @log
-    create(req: Request, res: Response) {
+    async create(req: Request, res: Response) {
         const contentType = req.header(MIME_CONFIG.contentType)
         if (
             contentType === undefined ||
             contentType.toLowerCase() !== MIME_CONFIG.json
         ) {
-            logger.debug('ArtikelRequestHandler.create status = 406')
+            logger.debug('ArticleRequestHandler.create status = 406')
             res.sendStatus(406)
             return
         }
 
-        const artikel = new Artikel(req.body)
+        const article = new Article(req.body)
         logger.debug(
-            `ArtikelRequestHandler.create post body: ${JSON.stringify(artikel)}`,
+            `ArticleRequestHandler.create post body: ${JSON.stringify(
+                article,
+            )}`,
         )
 
-        let artikelSaved: mongoose.Document
+        let articleSaved: mongoose.Document
         try {
-            buchSaved = await this.buchService.create(buch)
+            articleSaved = await this.articleService.create(article)
         } catch (err) {
             if (err instanceof ValidationError) {
                 res.status(400).send(JSON.parse(err.message))
                 return
             }
-            if (err instanceof TitelExistsError) {
+            if (err instanceof EanExistsError) {
                 res.status(400).send(err.message)
                 return
             }
@@ -52,14 +65,15 @@ class ArticelRequestHandler {
             return
         }
 
-        const location = `${getBaseUri(req)}/${buchSaved._id}`
-        logger.debug(`BuchRequestHandler.create: location = ${location}`)
+        const location = `${getBaseUri(req)}/${articleSaved._id}`
+        logger.debug(`ArticleRequestHandler.create: location = ${location}`)
         res.location(location)
         res.sendStatus(201)
     }
 }
-const handler = new ArtikelRequestHandler()
+const handler = new ArticleRequestHandler()
 
 // hier exportierte Functions:
 export const helloWorld = (req: Request, res: Response) =>
     handler.helloWorld(req, res)
+export const create = (req: Request, res: Response) => handler.create(req, res)

@@ -2,7 +2,9 @@ import { Router } from 'express'
 // tslint:disable-next-line:no-duplicate-imports            // Probiert es aus diese Zeile zu löschen!
 import * as express from 'express'
 
-import { helloWorld } from './article/rest'
+import { json } from 'body-parser'
+
+import { create, helloWorld } from './article/rest'
 
 class App {
     readonly app = express()
@@ -18,7 +20,10 @@ class App {
         // extrem wichtig sonst bringt der router nichts!!! Schaut in sein Beispiel wie er das routing aufteilt
 
         // todo Routing von post-Methode
-        router.route('/').get(helloWorld).post(create)
+        router
+            .route('/')
+            .get(helloWorld)
+            .post(json(), create)
     }
 }
 export const app = new App().app
