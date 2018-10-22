@@ -5,7 +5,7 @@ import * as path from 'path'
 
 import {dir} from './shared'
 
-const {src, config, dist} = dir
+const {config, dist} = dir
 
 // /* eslint-disable no-console */
 // // JSON-Dateien kopieren
