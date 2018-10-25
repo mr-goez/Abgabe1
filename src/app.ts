@@ -8,7 +8,7 @@ import { create, find, helloWorld } from './article/rest'
 import { validateContentType } from './shared/request-handler'
 
 export const PATHS = {
-    artikel: '/artikel',
+    articles: '/articles',
 }
 
 class App {
@@ -22,8 +22,6 @@ class App {
         this.articleRoutes()
         const router = Router()
         router.route('/').get(helloWorld)
-        // Nachverfolgen...
-        // extrem wichtig sonst bringt der router nichts!!! Schaut in sein Beispiel wie er das routing aufteilt
         this.app.use(router)
 
     }
@@ -32,7 +30,7 @@ class App {
         const router = Router()
         // get
         router.route('/').get(find)
-        this.app.use(PATHS.artikel, router)
+        this.app.use(PATHS.articles, router)
 
         // post
         router
@@ -40,7 +38,7 @@ class App {
             .get(find)
             .post(validateContentType, json(), create)
 
-        this.app.use(PATHS.artikel, router)
+        this.app.use(PATHS.articles, router)
         }
     }
 

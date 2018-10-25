@@ -4,16 +4,16 @@
 http://{{host}}
 
 ### Suche alle Artikel
-https://{{host}}/artikel
+https://{{host}}/articles
 
 ### Neuen Artikel anlegen
-POST https://{{host}}/artikel
+POST https://{{host}}/articles
 Content-Type: application/json
 
 < .\artikel-neu.json
 
 ### Neuen fehlerhaften Artikel anlegen
-POST https://{{host}}/artikel
+POST https://{{host}}/articles
 Content-Type: application/json
 
 < .\artikel-neu-invalid.json
