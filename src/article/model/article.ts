@@ -46,9 +46,9 @@ export const validateArticle = (article: any) => {
     }
     if (isEmpty(ean)) {
         err.ean = 'Der Artikel muss eine EAN haben.'
-    } else if (!ean.match(/^\d.*{6}/)) {
-        err.ean =
-            'Die EAN darf nur aus Ziffern bestehen und muss 6-stellig sein'
+        //  } else if (!ean.matchNumber(/^\d{6}/)) {
+        //      err.ean =
+        //          'Die EAN darf nur aus Ziffern bestehen und muss 6-stellig sein'
     }
     if (isEmpty(availability)) {
         err.ean = 'Die Verfügbarkeit des Artikels muss angegeben sein.'

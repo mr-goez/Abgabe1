@@ -3,8 +3,10 @@ import * as mongoose from 'mongoose'
 import { inspect } from 'util'
 
 import { getBaseUri, log, logger } from '../../shared'
-// import { Article } from '../model/article'
+import { MIME_CONFIG } from '../../shared/config/mime'
+import { Article } from '../model/article'
 import { ArticleService } from '../service/article.service'
+import { EanExistsError, ValidationError } from '../service/exceptions'
 
 class ArticleRequestHandler {
     private readonly articleService = new ArticleService()
@@ -98,18 +100,61 @@ class ArticleRequestHandler {
         res.json(payload)
     }
 
+    @log
+    async create(req: Request, res: Response) {
+        const contentType = req.header(MIME_CONFIG.contentType)
+        if (
+            contentType === undefined ||
+            contentType.toLowerCase() !== MIME_CONFIG.json
+        ) {
+            logger.debug('ArticleRequestHandler.create status = 406')
+            res.sendStatus(406)
+            return
+        }
+
+        const article = new Article(req.body)
+        logger.debug(
+            `ArticleRequestHandler.create post body: ${JSON.stringify(
+                article,
+            )}`,
+        )
+
+        let articleSaved: mongoose.Document
+        try {
+            articleSaved = await this.articleService.create(article)
+        } catch (err) {
+            if (err instanceof ValidationError) {
+                res.status(400).send(JSON.parse(err.message))
+                return
+            }
+            if (err instanceof EanExistsError) {
+                res.status(400).send(err.message)
+                return
+            }
+
+            logger.error(`Error: ${inspect(err)}`)
+            res.sendStatus(500)
+            return
+        }
+
+        const location = `${getBaseUri(req)}/${articleSaved._id}`
+        logger.debug(`ArticleRequestHandler.create: location = ${location}`)
+        res.location(location)
+        res.sendStatus(201)
+    }
+
     toString() {
         return 'ArticlehRequestHandler'
     }
 
-    private toJsonPayload(artcile: mongoose.Document): any {
+    private toJsonPayload(article: mongoose.Document): any {
         const {
             ean,
             description,
             price,
             availability,
             manufacturer,
-        } = artcile as any
+        } = article as any
         return {
             ean,
             description,
@@ -125,3 +170,4 @@ const handler = new ArticleRequestHandler()
 export const findById = (req: Request, res: Response) =>
     handler.findById(req, res)
 export const find = (req: Request, res: Response) => handler.find(req, res)
+export const create = (req: Request, res: Response) => handler.create(req, res)

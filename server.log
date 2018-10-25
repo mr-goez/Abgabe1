@@ -1,0 +1,875 @@
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T18:48:10.862Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T18:48:12.649Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T18:48:12.682Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:28.199Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:28.200Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:28.200Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:28.200Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:28.202Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T18:48:28.203Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T18:48:28.203Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:28.206Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:28.206Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:28.206Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"}] {"timestamp":"2018-10-25T18:48:28.226Z"}
+debug: Response time: 31.285017 ms {"timestamp":"2018-10-25T18:48:28.230Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:30.591Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:30.591Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:30.591Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:30.591Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:30.593Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:30.593Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-25T18:48:30.594Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-25T18:48:30.594Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-25T18:48:30.594Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-25T18:48:30.595Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-25T18:48:30.595Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:30.595Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"} {"timestamp":"2018-10-25T18:48:30.602Z"}
+debug: ArticleRequestHandler.findById VersionDb = undefined {"timestamp":"2018-10-25T18:48:30.602Z"}
+debug: Response time: 11.932162 ms {"timestamp":"2018-10-25T18:48:30.603Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:34.443Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:34.443Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:34.444Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:34.444Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:34.446Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T18:48:34.446Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T18:48:34.446Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:34.446Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:34.446Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:34.446Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"}] {"timestamp":"2018-10-25T18:48:34.451Z"}
+debug: Response time: 8.048881999999999 ms {"timestamp":"2018-10-25T18:48:34.451Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:42.356Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:42.356Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:42.356Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:42.356Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:42.358Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T18:48:42.358Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T18:48:42.358Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:42.358Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:42.358Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:42.358Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:42.362Z"}
+debug: Response time: 7.3016 ms {"timestamp":"2018-10-25T18:48:42.363Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:46.334Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:46.334Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:46.335Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:46.335Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:46.337Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T18:48:46.337Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T18:48:46.337Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:46.338Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:46.338Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:46.338Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:46.343Z"}
+debug: Response time: 9.045003999999999 ms {"timestamp":"2018-10-25T18:48:46.343Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:50.890Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:50.890Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:50.890Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:50.890Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:50.892Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:50.892Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:50.892Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:50.892Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:50.892Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:50.892Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:50.896Z"}
+debug: Response time: 6.336678 ms {"timestamp":"2018-10-25T18:48:50.896Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:52.511Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:52.512Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:52.512Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:52.512Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:52.513Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:52.514Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:52.514Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:52.514Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:52.514Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:52.514Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:52.519Z"}
+debug: Response time: 7.964033 ms {"timestamp":"2018-10-25T18:48:52.519Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:53.225Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:53.225Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:53.225Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:53.226Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:53.233Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:53.234Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:53.234Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:53.234Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:53.234Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:53.234Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:53.239Z"}
+debug: Response time: 13.959792 ms {"timestamp":"2018-10-25T18:48:53.239Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:53.745Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:53.745Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:53.745Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:53.745Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:53.747Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:53.747Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:53.747Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:53.747Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:53.747Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:53.747Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:53.751Z"}
+debug: Response time: 6.938612999999999 ms {"timestamp":"2018-10-25T18:48:53.752Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.059Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:54.059Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:54.059Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:54.059Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.063Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:54.063Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:54.063Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:54.063Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:54.063Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:54.063Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:54.072Z"}
+debug: Response time: 14.912158 ms {"timestamp":"2018-10-25T18:48:54.074Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.235Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:54.235Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:54.235Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:54.235Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.236Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:54.237Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:54.237Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:54.237Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:54.237Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:54.237Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:54.241Z"}
+debug: Response time: 7.4484699999999995 ms {"timestamp":"2018-10-25T18:48:54.242Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.409Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:54.410Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:54.410Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:54.410Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.411Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:54.411Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:54.411Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:54.411Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:54.411Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:54.411Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:54.415Z"}
+debug: Response time: 5.617552 ms {"timestamp":"2018-10-25T18:48:54.415Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.585Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:54.586Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:54.586Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:54.586Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.587Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:54.588Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:54.588Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:54.588Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:54.588Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:54.588Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:54.596Z"}
+debug: Response time: 11.028118 ms {"timestamp":"2018-10-25T18:48:54.596Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.752Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:54.752Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:54.752Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:54.752Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.754Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:54.754Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:54.754Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:54.754Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:54.754Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:54.754Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:54.759Z"}
+debug: Response time: 7.6889389999999995 ms {"timestamp":"2018-10-25T18:48:54.760Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.941Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:54.941Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:54.941Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:54.941Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:54.943Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:48:54.943Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:48:54.943Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:48:54.943Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:48:54.943Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:54.943Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T18:48:54.946Z"}
+debug: Response time: 5.097803 ms {"timestamp":"2018-10-25T18:48:54.946Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:59.744Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "content-length": "139",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:48:59.744Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:48:59.744Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:48:59.744Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:59.745Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-25T18:48:59.778Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:48:59.778Z"}
+debug: > ArticlehRequestHandler.create(): args = <RequestResponse> {"timestamp":"2018-10-25T18:48:59.781Z"}
+debug: ArticleRequestHandler.create post body: {"ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-25T18:48:59.788Z"}
+debug: > ArticleService.create(): args = [{"ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-25T18:48:59.789Z"}
+debug: < ArticleService.create(): result = {} {"timestamp":"2018-10-25T18:48:59.790Z"}
+debug: < ArticlehRequestHandler.create(): result = {} {"timestamp":"2018-10-25T18:48:59.790Z"}
+debug: Der Artikel ist abgespeichert: {"ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","__v":0} {"timestamp":"2018-10-25T18:48:59.814Z"}
+debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/articles/6559e802-ce88-41f8-8f42-920d4dbc3cb4 {"timestamp":"2018-10-25T18:48:59.814Z"}
+debug: Response time: 72.04689499999999 ms {"timestamp":"2018-10-25T18:48:59.816Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:03.950Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "content-length": "125",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:49:03.950Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:49:03.950Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:49:03.950Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:03.953Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-25T18:49:03.953Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:49:03.953Z"}
+debug: > ArticlehRequestHandler.create(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:03.954Z"}
+debug: ArticleRequestHandler.create post body: {"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"} {"timestamp":"2018-10-25T18:49:03.956Z"}
+debug: > ArticleService.create(): args = [{"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"}] {"timestamp":"2018-10-25T18:49:03.957Z"}
+debug: Validation Message: {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-25T18:49:03.957Z"}
+debug: ValidationError.constructor(): {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-25T18:49:03.957Z"}
+debug: < ArticleService.create(): result = {} {"timestamp":"2018-10-25T18:49:03.960Z"}
+debug: < ArticlehRequestHandler.create(): result = {} {"timestamp":"2018-10-25T18:49:03.960Z"}
+debug: Response time: 12.146377999999999 ms {"timestamp":"2018-10-25T18:49:03.962Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:07.739Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:49:07.739Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:49:07.740Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:49:07.740Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:07.741Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:49:07.741Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:49:07.741Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:49:07.741Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:49:07.742Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:49:07.742Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:49:07.745Z"}
+debug: Response time: 6.857949 ms {"timestamp":"2018-10-25T18:49:07.746Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:10.689Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:49:10.689Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:49:10.689Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:49:10.690Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:10.691Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T18:49:10.691Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T18:49:10.692Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:49:10.692Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:49:10.692Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:49:10.692Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:49:10.696Z"}
+debug: Response time: 7.351444 ms {"timestamp":"2018-10-25T18:49:10.696Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:12.569Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:49:12.570Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:49:12.570Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:49:12.570Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:12.573Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:12.573Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-25T18:49:12.573Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-25T18:49:12.573Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-25T18:49:12.573Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-25T18:49:12.574Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-25T18:49:12.574Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:49:12.574Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"} {"timestamp":"2018-10-25T18:49:12.577Z"}
+debug: ArticleRequestHandler.findById VersionDb = undefined {"timestamp":"2018-10-25T18:49:12.577Z"}
+debug: Response time: 8.397411 ms {"timestamp":"2018-10-25T18:49:12.578Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:14.539Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:49:14.539Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:49:14.539Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:49:14.539Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:14.540Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T18:49:14.542Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T18:49:14.542Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:49:14.542Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:49:14.542Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:49:14.542Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:49:14.547Z"}
+debug: Response time: 10.806673 ms {"timestamp":"2018-10-25T18:49:14.549Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:16.395Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:49:16.395Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:49:16.395Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:49:16.395Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:49:16.397Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:49:16.397Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:49:16.397Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:49:16.397Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:49:16.397Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:49:16.397Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:49:16.401Z"}
+debug: Response time: 7.747153999999999 ms {"timestamp":"2018-10-25T18:49:16.401Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T18:51:17.720Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T18:51:19.098Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T18:51:19.116Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T18:54:19.174Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T18:54:20.563Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T18:54:20.588Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:54:26.874Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:54:26.874Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:54:26.874Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:54:26.875Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:54:26.877Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T18:54:26.878Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T18:54:26.878Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:54:26.881Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:54:26.881Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:54:26.881Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"}] {"timestamp":"2018-10-25T18:54:26.901Z"}
+debug: Response time: 31.449769 ms {"timestamp":"2018-10-25T18:54:26.905Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:35.991Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:35.992Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:35.992Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:35.992Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:35.996Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:35.997Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-25T18:55:35.997Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-25T18:55:35.997Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-25T18:55:35.999Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-25T18:55:35.999Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-25T18:55:36.000Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:36.000Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"} {"timestamp":"2018-10-25T18:55:36.012Z"}
+debug: ArticleRequestHandler.findById VersionDb = undefined {"timestamp":"2018-10-25T18:55:36.012Z"}
+debug: Response time: 21.883492999999998 ms {"timestamp":"2018-10-25T18:55:36.013Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:38.365Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:38.365Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:38.366Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:38.366Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:38.369Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T18:55:38.369Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T18:55:38.369Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:38.369Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:38.369Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:38.369Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:38.377Z"}
+debug: Response time: 12.373149999999999 ms {"timestamp":"2018-10-25T18:55:38.378Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:54.517Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:54.517Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:54.517Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:54.517Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:54.519Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:54.519Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:54.519Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:54.519Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:54.519Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:54.519Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:54.523Z"}
+debug: Response time: 7.31682 ms {"timestamp":"2018-10-25T18:55:54.524Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:55.959Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:55.959Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:55.959Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:55.959Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:55.962Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:55.962Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:55.962Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:55.962Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:55.963Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:55.963Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:55.967Z"}
+debug: Response time: 8.335011 ms {"timestamp":"2018-10-25T18:55:55.967Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:56.349Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:56.349Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:56.349Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:56.349Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:56.351Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:56.351Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:56.351Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:56.351Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:56.351Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:56.351Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:56.357Z"}
+debug: Response time: 8.791599 ms {"timestamp":"2018-10-25T18:55:56.357Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:56.540Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:56.541Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:56.541Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:56.541Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:56.542Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:56.542Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:56.542Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:56.542Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:56.543Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:56.543Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:56.548Z"}
+debug: Response time: 8.630271 ms {"timestamp":"2018-10-25T18:55:56.549Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:56.704Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:56.704Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:56.704Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:56.704Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:56.706Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:56.707Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:56.707Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:56.707Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:56.707Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:56.707Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:56.716Z"}
+debug: Response time: 12.535998999999999 ms {"timestamp":"2018-10-25T18:55:56.717Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:57.047Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:57.047Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:57.047Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:57.048Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:57.052Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:57.052Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:57.052Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:57.052Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:57.052Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:57.052Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:57.057Z"}
+debug: Response time: 11.178791 ms {"timestamp":"2018-10-25T18:55:57.058Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:57.194Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:57.194Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:57.194Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:57.194Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:57.197Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:57.197Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:57.197Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:57.198Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:57.198Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:57.198Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:57.205Z"}
+debug: Response time: 11.803175999999999 ms {"timestamp":"2018-10-25T18:55:57.206Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:57.320Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T18:55:57.320Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T18:55:57.321Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T18:55:57.321Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:55:57.322Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T18:55:57.322Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T18:55:57.322Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T18:55:57.322Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T18:55:57.322Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T18:55:57.322Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"6559e802-ce88-41f8-8f42-920d4dbc3cb4","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:55:57.326Z"}
+debug: Response time: 6.708037 ms {"timestamp":"2018-10-25T18:55:57.327Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T19:04:39.137Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T19:04:40.661Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T19:04:40.679Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:04:52.073Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:04:52.073Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:04:52.074Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:04:52.074Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:04:52.076Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T19:04:52.076Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T19:04:52.076Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:04:52.078Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:04:52.078Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:04:52.078Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"}] {"timestamp":"2018-10-25T19:04:52.099Z"}
+debug: Response time: 30.133274 ms {"timestamp":"2018-10-25T19:04:52.103Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:00.133Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:05:00.133Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:05:00.133Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:05:00.133Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:00.134Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T19:05:00.134Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:05:00.135Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:05:00.135Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:05:00.135Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:05:00.135Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:05:00.139Z"}
+debug: Response time: 6.7540759999999995 ms {"timestamp":"2018-10-25T19:05:00.140Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:08.714Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:05:08.714Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:05:08.714Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:05:08.715Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:08.716Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:05:08.716Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:05:08.716Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:05:08.716Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:05:08.716Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:05:08.716Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:05:08.721Z"}
+debug: Response time: 6.853002999999999 ms {"timestamp":"2018-10-25T19:05:08.721Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:10.056Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:05:10.056Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:05:10.056Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:05:10.056Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:10.059Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:05:10.059Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:05:10.059Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:05:10.060Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:05:10.060Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:05:10.060Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:05:10.067Z"}
+debug: Response time: 11.390345 ms {"timestamp":"2018-10-25T19:05:10.067Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:10.225Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:05:10.226Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:05:10.226Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:05:10.226Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:10.228Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:05:10.228Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:05:10.228Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:05:10.228Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:05:10.228Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:05:10.228Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:05:10.232Z"}
+debug: Response time: 6.504474 ms {"timestamp":"2018-10-25T19:05:10.232Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:10.382Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:05:10.382Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:05:10.383Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:05:10.383Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:05:10.384Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:05:10.384Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:05:10.384Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:05:10.384Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:05:10.385Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:05:10.385Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:05:10.391Z"}
+debug: Response time: 9.555622 ms {"timestamp":"2018-10-25T19:05:10.392Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T19:11:54.024Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T19:11:55.459Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T19:11:55.478Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:11:58.152Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:11:58.152Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:11:58.152Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:11:58.152Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:11:58.154Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T19:11:58.155Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:11:58.155Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:11:58.157Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:11:58.157Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:11:58.157Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:11:58.178Z"}
+debug: Response time: 30.020649 ms {"timestamp":"2018-10-25T19:11:58.184Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:00.540Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:12:00.540Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:12:00.540Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:12:00.540Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:00.542Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:12:00.542Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:12:00.542Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:12:00.542Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:12:00.542Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:12:00.542Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:12:00.550Z"}
+debug: Response time: 11.493837 ms {"timestamp":"2018-10-25T19:12:00.551Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:02.595Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:12:02.596Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:12:02.596Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:12:02.596Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:02.598Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:02.598Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-25T19:12:02.598Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-25T19:12:02.598Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-25T19:12:02.599Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-25T19:12:02.599Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-25T19:12:02.599Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:12:02.600Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"} {"timestamp":"2018-10-25T19:12:02.604Z"}
+debug: ArticleRequestHandler.findById VersionDb = undefined {"timestamp":"2018-10-25T19:12:02.604Z"}
+debug: Response time: 9.099034999999999 ms {"timestamp":"2018-10-25T19:12:02.604Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:05.315Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:12:05.316Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:12:05.316Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:12:05.316Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:05.318Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T19:12:05.318Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:12:05.318Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:12:05.318Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:12:05.318Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:12:05.318Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:12:05.322Z"}
+debug: Response time: 6.852621999999999 ms {"timestamp":"2018-10-25T19:12:05.322Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:06.610Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:12:06.610Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:12:06.610Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:12:06.610Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:12:06.611Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:12:06.611Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:12:06.612Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:12:06.612Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:12:06.612Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:12:06.612Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T19:12:06.616Z"}
+debug: Response time: 6.565733 ms {"timestamp":"2018-10-25T19:12:06.616Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T19:16:53.534Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T19:16:54.951Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T19:16:54.970Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T19:16:59.328Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T19:17:00.702Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T19:17:00.721Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:01.943Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:01.943Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:01.944Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:01.945Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:01.947Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T19:17:01.948Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T19:17:01.948Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:01.951Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:01.951Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:01.951Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"}] {"timestamp":"2018-10-25T19:17:01.973Z"}
+debug: Response time: 36.043423 ms {"timestamp":"2018-10-25T19:17:01.978Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:07.128Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:07.128Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:07.128Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:07.128Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:07.130Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:17:07.130Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:17:07.130Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:07.131Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:07.131Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:07.131Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:17:07.135Z"}
+debug: Response time: 7.561094 ms {"timestamp":"2018-10-25T19:17:07.135Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:10.374Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:10.374Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:10.374Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:10.375Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:10.376Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T19:17:10.376Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:17:10.376Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:10.376Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:10.376Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:10.376Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:17:10.379Z"}
+debug: Response time: 5.475249 ms {"timestamp":"2018-10-25T19:17:10.380Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:14.552Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:14.552Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:14.552Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:14.553Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:14.554Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:17:14.554Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:17:14.554Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:14.554Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:14.554Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:14.554Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:17:14.557Z"}
+debug: Response time: 5.484 ms {"timestamp":"2018-10-25T19:17:14.558Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:25.978Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:25.978Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:25.978Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:25.978Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:25.980Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T19:17:25.980Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T19:17:25.980Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:25.981Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:25.981Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:25.981Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"}] {"timestamp":"2018-10-25T19:17:25.985Z"}
+debug: Response time: 8.009692 ms {"timestamp":"2018-10-25T19:17:25.986Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:34.476Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:34.476Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:34.476Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:34.476Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:34.477Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:17:34.477Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:17:34.477Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:34.478Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:34.478Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:34.478Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:17:34.481Z"}
+debug: Response time: 6.098872 ms {"timestamp":"2018-10-25T19:17:34.482Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:40.474Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:40.474Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:40.474Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:40.475Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:40.479Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"aute"} {"timestamp":"2018-10-25T19:17:40.479Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"aute"}] {"timestamp":"2018-10-25T19:17:40.479Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:40.479Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:40.479Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:40.480Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"}] {"timestamp":"2018-10-25T19:17:40.484Z"}
+debug: Response time: 10.567725 ms {"timestamp":"2018-10-25T19:17:40.484Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:42.287Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T19:17:42.287Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T19:17:42.287Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T19:17:42.287Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T19:17:42.290Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T19:17:42.290Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T19:17:42.290Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T19:17:42.291Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T19:17:42.291Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T19:17:42.291Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T19:17:42.296Z"}
+debug: Response time: 10.390417 ms {"timestamp":"2018-10-25T19:17:42.297Z"}
