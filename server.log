@@ -1210,3 +1210,35 @@ debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"
 debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T17:49:08.050Z"}
 debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T17:49:08.050Z"}
 debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T17:49:08.051Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:51:46.671Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:51:46.671Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:51:46.671Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:51:46.671Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:51:46.672Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"d7c3efd6-a50e-47e8-ad44-52a7f3e00121","ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:51:46.676Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-25T17:51:51.029Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-25T17:51:51.047Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-25T17:51:51.048Z"}
+debug: ArticleRequestHandler.create post body: {"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"} {"timestamp":"2018-10-25T17:51:51.054Z"}
+debug: > [object Object].create(): args = [{"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"}] {"timestamp":"2018-10-25T17:51:51.057Z"}
+debug: Validation Message: {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-25T17:51:51.059Z"}
+debug: ValidationError.constructor(): {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-25T17:51:51.059Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:51:51.067Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:51:51.067Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-25T17:51:56.626Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-25T17:51:56.627Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-25T17:51:56.630Z"}
+debug: ArticleRequestHandler.create post body: {"ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-25T17:51:56.632Z"}
+debug: > [object Object].create(): args = [{"ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-25T17:51:56.632Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:51:56.634Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:51:56.634Z"}
+debug: EanExistsError.constructor(): Die europäische eindeutige Artikelnummer "223457" existiert bereits. {"timestamp":"2018-10-25T17:51:56.638Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-25T17:52:10.665Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-25T17:52:10.665Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-25T17:52:10.666Z"}
+debug: ArticleRequestHandler.create post body: {"ean":323457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-25T17:52:10.666Z"}
+debug: > [object Object].create(): args = [{"ean":323457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-25T17:52:10.667Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:52:10.667Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:52:10.667Z"}
+debug: Der Artikel ist abgespeichert: {"ean":323457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"471daff5-8ca8-4565-9160-09092fdb8a2e","__v":0} {"timestamp":"2018-10-25T17:52:10.690Z"}
+debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/articles/471daff5-8ca8-4565-9160-09092fdb8a2e {"timestamp":"2018-10-25T17:52:10.690Z"}

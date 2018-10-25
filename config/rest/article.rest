@@ -10,10 +10,10 @@ https://{{host}}/articles
 POST https://{{host}}/articles
 Content-Type: application/json
 
-< .\artikel-neu.json
+< .\article-new.json
 
 ### Neuen fehlerhaften Artikel anlegen
 POST https://{{host}}/articles
 Content-Type: application/json
 
-< .\artikel-neu-invalid.json
+< .\article-new-invalid.json
