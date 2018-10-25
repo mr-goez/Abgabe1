@@ -35,7 +35,7 @@ export class ArticleService {
         // nach _id sortieren: Timestamp des INSERTs (Basis: Sek)
         // https://docs.mongodb.org/manual/reference/object-id
         if (Object.keys(query).length === 0) {
-             return tmpQuery.sort('manufacturer')
+            return tmpQuery.sort('manufacturer')
         }
         return Article.find(tmpQuery)
     }
