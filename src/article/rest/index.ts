@@ -30,7 +30,6 @@ class ArticleRequestHandler {
 
     @log
     async find(req: Request, res: Response) {
-        // z.B. https://.../buch?titel=Alpha
         const query = req.query
         logger.debug(
             `ArticleRequestHandler.find queryParams = ${JSON.stringify(query)}`,
@@ -59,11 +58,10 @@ class ArticleRequestHandler {
 
         const baseUri = getBaseUri(req)
 
-        // asynchrone for-of Schleife statt synchrones buecher.map()
         const payload = []
         for await (const article of articles) {
             const articleResource = this.toJsonPayload(article)
-            // HATEOAS: Atom Links je Buch
+            // HATEOAS: Atom Links je Artikel
             articleResource.links = [
                 { rel: 'self' },
                 { href: `${baseUri}/${article._id}` },
