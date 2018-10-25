@@ -13,6 +13,21 @@ export class ArticleService {
     }
 
     @log
+    async find(query?: any) {
+        const tmpQuery = Article.find()
+
+        // alle Buecher asynchron suchen u. aufsteigend nach titel sortieren
+        // nach _id sortieren: Timestamp des INSERTs (Basis: Sek)
+        // https://docs.mongodb.org/manual/reference/object-id
+        if (Object.keys(query).length === 0) {
+            return tmpQuery.sort('ean')
+        }
+
+        return Article.find(tmpQuery)
+        // Buch.findOne(query), falls das Suchkriterium eindeutig ist
+        // bei findOne(query) wird null zurueckgeliefert, falls nichts gefunden
+    }
+    @log
     async create(article: Document) {
         const ean: number = (article as any).ean
 

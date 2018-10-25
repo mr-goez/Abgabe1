@@ -1,0 +1,1197 @@
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T18:20:05.855Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T18:20:07.471Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T18:20:07.492Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T18:33:30.138Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T18:33:31.585Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T18:33:31.598Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T18:33:42.511Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T18:33:43.862Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T18:33:43.876Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T18:50:57.538Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T18:50:58.774Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T18:50:58.788Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T18:51:27.972Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T18:51:29.289Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T18:51:29.303Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-22T18:51:41.983Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-22T18:51:41.991Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-22T18:51:41.992Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T18:51:41.992Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T18:51:41.993Z"}
+error: Error: SyntaxError: Invalid regular expression: /^\d.*{6}/: Nothing to repeat
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-22T18:51:41.995Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:00:41.135Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:00:42.382Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:00:42.400Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-22T19:00:52.764Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-22T19:00:52.770Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-22T19:00:52.771Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:00:52.778Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:00:52.778Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-22T19:00:52.779Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:03:59.795Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:04:01.047Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:04:01.062Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-22T19:04:05.368Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-22T19:04:05.380Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-22T19:04:05.380Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:04:05.381Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:04:05.381Z"}
+error: Error: SyntaxError: Invalid regular expression: /^\d.*{6}/: Nothing to repeat
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-22T19:04:05.384Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:13:15.513Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:13:16.793Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:13:16.811Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:23.023Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-22T19:13:23.029Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-22T19:13:23.029Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:13:23.030Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:13:23.030Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-22T19:13:23.031Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:14:15.818Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:14:17.110Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:14:17.136Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:16:28.587Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:16:29.951Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:16:29.978Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-22T19:16:34.615Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-22T19:16:34.621Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-22T19:16:34.622Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:16:34.623Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:16:34.623Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-22T19:16:34.624Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:21:51.086Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:21:52.562Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:21:52.590Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-22T19:22:01.564Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-22T19:22:01.583Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-22T19:22:01.585Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:22:01.598Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-22T19:22:01.598Z"}
+error: Error: SyntaxError: Invalid regular expression: /^\d.*{6}$/: Nothing to repeat
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-22T19:22:01.600Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:05:27.429Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:05:30.216Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:05:30.246Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:11:18.673Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:11:19.893Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:11:19.907Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:13:37.644Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:13:38.926Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:13:38.946Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T11:13:59.982Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T11:13:59.993Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T11:13:59.994Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T11:13:59.995Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T11:13:59.995Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T11:13:59.996Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:26:30.204Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:26:31.447Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:26:31.465Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:28:07.507Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:28:08.847Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:28:08.863Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:28:48.917Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:28:50.327Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:28:50.342Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T11:28:50.733Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T11:28:50.748Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T11:28:50.750Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T11:28:50.756Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T11:28:50.757Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T11:28:50.757Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T11:28:50.757Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:14:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:36:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:66:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T11:28:50.758Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:54:23.265Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:54:24.544Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:54:24.569Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T11:58:32.949Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T11:58:34.206Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T11:58:34.217Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T11:58:36.889Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T11:58:36.889Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T11:58:36.892Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T11:59:00.344Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T11:59:00.344Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T11:59:00.345Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T11:59:03.048Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T11:59:03.048Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T11:59:03.049Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T11:59:04.799Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T11:59:04.799Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T11:59:04.800Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:00:02.186Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:00:02.198Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:00:02.199Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:00:02.205Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:00:02.205Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:00:02.206Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:00:02.206Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:126:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:00:02.207Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:05:11.427Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:05:12.935Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:05:14.146Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:05:14.161Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T12:05:17.892Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T12:05:17.892Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T12:05:17.896Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:05:31.155Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:05:31.167Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:05:31.169Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:05:31.175Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:05:31.176Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:05:31.176Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:05:31.176Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:05:31.177Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:05:34.193Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:05:34.193Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:05:34.194Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:05:34.194Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:05:34.194Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:05:34.195Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:05:34.195Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:05:34.195Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T12:08:31.447Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T12:08:31.448Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T12:08:31.451Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:11:45.118Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:11:45.118Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:11:45.119Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:11:45.121Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:11:45.121Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:11:45.121Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:11:45.122Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:11:45.122Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:15:35.977Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:15:35.977Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:15:35.977Z"}
+debug: ArticleRequestHandler.create post body: {"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:15:35.977Z"}
+debug: > [object Object].create(): args = [{"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:15:35.977Z"}
+debug: Validation Message: {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:15:35.977Z"}
+debug: ValidationError.constructor(): {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:15:35.978Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:15:35.978Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:15:35.978Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:16:30.786Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:16:30.786Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:16:30.786Z"}
+debug: ArticleRequestHandler.create post body: {"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:16:30.787Z"}
+debug: > [object Object].create(): args = [{"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:16:30.787Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:16:30.788Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:16:30.788Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:16:30.788Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:03.794Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:17:03.795Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:03.795Z"}
+debug: ArticleRequestHandler.create post body: {"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:17:03.796Z"}
+debug: > [object Object].create(): args = [{"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:17:03.797Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:03.797Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:03.797Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:17:03.797Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:03.804Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:17:03.804Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:03.805Z"}
+debug: ArticleRequestHandler.create post body: {"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:17:03.806Z"}
+debug: > [object Object].create(): args = [{"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:17:03.807Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:03.807Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:03.807Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:17:03.808Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:03.814Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:17:03.814Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:03.815Z"}
+debug: ArticleRequestHandler.create post body: {"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:17:03.815Z"}
+debug: > [object Object].create(): args = [{"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:17:03.816Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:03.816Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:03.816Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:17:03.817Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:17:06.927Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:17:08.374Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:17:08.385Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:16.362Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:17:16.389Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:17:16.392Z"}
+debug: ArticleRequestHandler.create post body: {"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:17:16.411Z"}
+debug: > [object Object].create(): args = [{"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:17:16.412Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:16.413Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:17:16.414Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:17:16.416Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T12:18:29.133Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T12:18:29.133Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T12:18:29.135Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:35.464Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:35.464Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:35.465Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:35.466Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:35.466Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:35.467Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:35.467Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:35.467Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.362Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:48.362Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.363Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:48.364Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:48.364Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.365Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.365Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:48.365Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.370Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:48.371Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.372Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:48.373Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:48.373Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.374Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.374Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:48.374Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.377Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:48.377Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.378Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:48.379Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:48.379Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.379Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.379Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:48.380Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.383Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:48.383Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.384Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:48.385Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:48.388Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.388Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.388Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:48.389Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.394Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:48.394Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.395Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:48.400Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:48.404Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.405Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.406Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:48.406Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.411Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:48.411Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.411Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:48.413Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:48.414Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.414Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.414Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:48.415Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.478Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:48.478Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:48.478Z"}
+debug: ArticleRequestHandler.create post body: {"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:20:48.480Z"}
+debug: > [object Object].create(): args = [{"ean":111111,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:20:48.480Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.481Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:48.481Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:48.482Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:20:50.272Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:20:51.509Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:20:51.526Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:56.340Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:20:56.357Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:20:56.358Z"}
+debug: ArticleRequestHandler.create post body: {"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:20:56.368Z"}
+debug: > [object Object].create(): args = [{"ean":11111,"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:20:56.368Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:56.369Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:20:56.369Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:20:56.370Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:21:12.266Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:21:13.510Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:21:13.529Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:21:28.602Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:21:29.942Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:21:29.959Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:21:30.798Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:21:30.811Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:21:30.813Z"}
+debug: ArticleRequestHandler.create post body: {"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:21:30.818Z"}
+debug: > [object Object].create(): args = [{"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:21:30.819Z"}
+debug: Validation Message: {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:21:30.819Z"}
+debug: ValidationError.constructor(): {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:21:30.819Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:21:30.819Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:21:30.819Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:22:49.148Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:22:50.382Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:22:50.397Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:23:20.110Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:23:21.384Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:23:21.407Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:23:22.666Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:23:22.677Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:23:22.679Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:23:22.684Z"}
+debug: > [object Object].create(): args = [{"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:23:22.685Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:23:22.685Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:23:22.685Z"}
+error: Error: TypeError: ean.match is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:23:22.686Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:24:01.042Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:24:02.297Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:24:02.311Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:24:10.826Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:24:10.849Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:24:10.854Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:24:10.870Z"}
+debug: > [object Object].create(): args = [{"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:24:10.871Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:24:10.873Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:24:10.873Z"}
+error: Error: TypeError: ean.matchNumber is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:24:10.874Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:27:18.498Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:27:19.975Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:27:21.197Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:27:21.215Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:27:25.258Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:27:25.272Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:27:25.273Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:27:25.279Z"}
+debug: > [object Object].create(): args = [{"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:27:25.280Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:27:25.281Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:27:25.281Z"}
+error: Error: SyntaxError: Invalid regular expression: /^\d.*{6}/: Nothing to repeat
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:27:25.282Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:28:09.503Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:28:10.862Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:28:10.876Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:28:17.219Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:28:17.230Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:28:17.231Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:28:17.237Z"}
+debug: > [object Object].create(): args = [{"ean":123456,"description":"Put Test","manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:28:17.238Z"}
+debug: Validation Message: {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:28:17.238Z"}
+debug: ValidationError.constructor(): {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:28:17.238Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:28:17.238Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:28:17.238Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:29:27.293Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:29:28.630Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:29:28.651Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:29:38.643Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:29:39.912Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:29:39.928Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:29:52.022Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:29:53.292Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:29:53.309Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:30:42.136Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:30:43.408Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:30:43.447Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:31:04.067Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:31:04.081Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:31:04.082Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123456,"description":"Put Test","availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:31:04.088Z"}
+debug: > [object Object].create(): args = [{"ean":123456,"description":"Put Test","availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:31:04.088Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:31:04.089Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:31:04.089Z"}
+error: Error: { ValidationError: Cast to Number failed for value "$1,999.60" at path "Price"
+    at ValidationError.inspect (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:561:31)
+    at Object.inspect (util.js:371:10)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:94:52)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  errors:
+   { price:
+      { CastError: Cast to Number failed for value "$1,999.60" at path "Price"
+          at new CastError (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\error\cast.js:29:11)
+          at model.$set (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:946:7)
+          at model._handleIndex (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:755:14)
+          at model.$set (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:701:22)
+          at model.Document (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:116:12)
+          at model.Model (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\model.js:72:12)
+          at new model (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\model.js:4336:13)
+          at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:79:25)
+          at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+          at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+          at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+          at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+          at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+          at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+          at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+          at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+        message:
+         'Cast to Number failed for value "$1,999.60" at path "Price"',
+        name: 'CastError',
+        stringValue: '"$1,999.60"',
+        kind: 'Number',
+        value: '$1,999.60',
+        path: 'price',
+        reason: [MongooseError] } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' } {"timestamp":"2018-10-23T12:31:04.118Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:31:19.459Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:31:19.460Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:31:19.460Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123456,"description":"Put Test","availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:31:19.461Z"}
+debug: > [object Object].create(): args = [{"ean":123456,"description":"Put Test","availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:31:19.462Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:31:19.462Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:31:19.462Z"}
+error: Error: { ValidationError: Cast to Number failed for value "$1,999.60" at path "Price"
+    at ValidationError.inspect (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:561:31)
+    at Object.inspect (util.js:371:10)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:94:52)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  errors:
+   { price:
+      { CastError: Cast to Number failed for value "$1,999.60" at path "Price"
+          at new CastError (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\error\cast.js:29:11)
+          at model.$set (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:946:7)
+          at model._handleIndex (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:755:14)
+          at model.$set (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:701:22)
+          at model.Document (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\document.js:116:12)
+          at model.Model (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\model.js:72:12)
+          at new model (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\mongoose\lib\model.js:4336:13)
+          at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:79:25)
+          at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+          at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+          at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+          at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+          at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+          at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+          at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+          at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+        message:
+         'Cast to Number failed for value "$1,999.60" at path "Price"',
+        name: 'CastError',
+        stringValue: '"$1,999.60"',
+        kind: 'Number',
+        value: '$1,999.60',
+        path: 'price',
+        reason: [MongooseError] } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' } {"timestamp":"2018-10-23T12:31:19.470Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:34:36.320Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:34:37.575Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:34:37.600Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:34:47.146Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:34:47.159Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:34:47.160Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:34:47.164Z"}
+debug: > [object Object].create(): args = [{"ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:34:47.164Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:34:47.166Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:34:47.166Z"}
+debug: Der Artikel ist abgespeichert: {"ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","__v":0} {"timestamp":"2018-10-23T12:34:47.213Z"}
+debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/artikel/26ea308c-9b66-4386-9d71-09fdd04d679d {"timestamp":"2018-10-23T12:34:47.213Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:36:30.882Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:36:32.096Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:36:32.112Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:36:35.312Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:36:35.323Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:36:35.324Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:36:35.329Z"}
+debug: > [object Object].create(): args = [{"ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:36:35.329Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:36:35.330Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:36:35.330Z"}
+error: Error: TypeError: ean.matchNumber is not a function
+    at Object.exports.validateArticle (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\model\article.js:36:19)
+    at ArticleService.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\service\article.service.js:26:31)
+    at ArticleService.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at ArticleRequestHandler.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:83:54)
+    at ArticleRequestHandler.descriptor.value (C:\Users\Student\Documents\GitHub\Abgabe1\dist\shared\log.js:74:39)
+    at exports.create (C:\Users\Student\Documents\GitHub\Abgabe1\dist\article\rest\index.js:127:40)
+    at Layer.handle [as handle_request] (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Student\Documents\GitHub\Abgabe1\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1092:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) {"timestamp":"2018-10-23T12:36:35.333Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:12.738Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T12:37:12.738Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T12:37:12.742Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:17.622Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T12:37:17.623Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T12:37:17.624Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:39:40.708Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:40:12.858Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:40:12.882Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:40:18.147Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:40:18.157Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:40:18.159Z"}
+debug: ArticleRequestHandler.create post body: {"ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-23T12:40:18.164Z"}
+debug: > [object Object].create(): args = [{"ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-23T12:40:18.164Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:40:18.166Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:40:18.166Z"}
+debug: Der Artikel ist abgespeichert: {"ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"03031d6a-a0be-449c-a866-9ff19e563056","__v":0} {"timestamp":"2018-10-23T12:40:18.186Z"}
+debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/artikel/03031d6a-a0be-449c-a866-9ff19e563056 {"timestamp":"2018-10-23T12:40:18.186Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:40:23.792Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:40:23.793Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:40:23.793Z"}
+debug: ArticleRequestHandler.create post body: {"description":"Put  Invalid","manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:40:23.797Z"}
+debug: > [object Object].create(): args = [{"description":"Put  Invalid","manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:40:23.797Z"}
+debug: Validation Message: {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:40:23.797Z"}
+debug: ValidationError.constructor(): {"ean":"Die Verfügbarkeit des Artikels muss angegeben sein."} {"timestamp":"2018-10-23T12:40:23.797Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:40:23.798Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:40:23.798Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:40:37.887Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:40:39.215Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:40:39.229Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-23T12:40:44.790Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-23T12:40:44.801Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-23T12:40:44.802Z"}
+debug: ArticleRequestHandler.create post body: {"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"} {"timestamp":"2018-10-23T12:40:44.808Z"}
+debug: > [object Object].create(): args = [{"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"}] {"timestamp":"2018-10-23T12:40:44.808Z"}
+debug: Validation Message: {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-23T12:40:44.809Z"}
+debug: ValidationError.constructor(): {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-23T12:40:44.809Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:40:44.809Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-23T12:40:44.809Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T13:21:36.531Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T13:21:40.132Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T13:21:40.194Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-23T13:21:43.854Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-23T13:21:43.855Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-23T13:21:43.879Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T15:26:07.983Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T15:26:11.413Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T15:26:11.429Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T15:26:38.372Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T15:26:39.640Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T15:26:39.656Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T15:27:20.269Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T15:27:20.270Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T15:27:20.273Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T15:27:25.602Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T15:27:25.602Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T15:27:25.603Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T15:28:09.385Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T15:28:09.385Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T15:28:09.387Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T15:29:33.844Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T15:29:36.099Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T15:29:36.112Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T15:29:39.568Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T15:29:39.569Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T15:29:39.569Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T15:29:39.571Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T15:29:39.571Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T15:29:39.590Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T15:32:30.971Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T15:32:30.971Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T15:32:30.971Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T15:32:30.972Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T15:32:30.972Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T15:32:30.975Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T15:33:04.238Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T15:33:04.238Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T15:33:04.238Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T15:33:04.238Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T15:33:04.238Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T15:33:04.243Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T15:36:10.186Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T15:36:11.400Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T15:36:19.550Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T15:36:21.941Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T15:36:21.941Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T15:36:21.945Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T15:36:25.398Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T15:36:25.398Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T15:36:25.399Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T15:36:28.963Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T15:36:28.963Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T15:36:28.963Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:45:20.661Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:45:23.321Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:45:23.353Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:45:59.488Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:46:00.695Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:46:00.709Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:46:23.079Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:46:24.372Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:46:24.391Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:50:11.561Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:50:11.561Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:50:11.561Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:50:11.563Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:50:11.563Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:50:11.575Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:51:01.505Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:51:01.506Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:51:01.506Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:51:01.507Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:51:01.507Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:51:01.517Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:55:36.195Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:55:36.195Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:55:36.195Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:55:36.195Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:55:36.195Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:55:36.197Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:55:38.938Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:55:38.938Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:55:38.938Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:55:38.939Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:55:38.939Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:55:38.943Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:56:01.463Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:56:14.132Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:56:14.146Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:56:18.965Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:56:18.965Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:56:18.965Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:56:18.967Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:56:18.967Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:56:18.984Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:57:40.471Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:57:40.471Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:57:40.471Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:57:40.472Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:57:40.472Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:57:40.479Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:57:49.693Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:57:50.900Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:57:50.910Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T16:57:52.733Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T16:57:52.733Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T16:57:52.737Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:57:56.421Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:57:56.422Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:57:56.423Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:57:56.428Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:57:56.428Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:57:56.452Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T16:57:56.498Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T16:57:56.498Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T16:57:56.498Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:57:56.498Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T16:57:56.498Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T16:57:56.502Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:58:57.836Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:58:59.338Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:58:59.352Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T16:58:59.746Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T16:58:59.746Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T16:58:59.750Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:59:15.620Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:59:16.856Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:59:16.875Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T16:59:30.070Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T16:59:39.818Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T16:59:39.831Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T16:59:41.612Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T16:59:41.612Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T16:59:41.615Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T16:59:43.148Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T16:59:43.148Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T16:59:43.152Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T16:59:47.663Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T16:59:47.664Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T16:59:47.666Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T16:59:49.671Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T16:59:49.671Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T16:59:49.672Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T16:59:53.128Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T16:59:53.128Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T16:59:53.129Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:00:11.980Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:00:13.285Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:00:13.302Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T17:00:21.304Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T17:00:21.304Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T17:00:21.307Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:01:28.871Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:01:30.099Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:01:37.783Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:01:40.503Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:01:40.503Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:01:40.504Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:01:40.505Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:01:40.505Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:01:40.518Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:01:43.342Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:01:43.342Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:01:43.342Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:01:43.342Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:01:43.342Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:01:43.347Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:01:46.899Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:01:46.899Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:01:46.899Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:01:46.899Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:01:46.899Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:01:46.903Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:06:49.561Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:06:49.562Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:06:49.562Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:06:49.562Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:06:49.562Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:06:49.568Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:07:10.812Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:07:12.036Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:07:14.881Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:07:16.269Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:07:17.487Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:07:17.498Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:07:19.128Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:07:19.128Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:07:19.128Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:07:19.130Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:07:19.130Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:07:19.145Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:07:57.222Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:07:58.492Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:08:00.027Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:08:35.464Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:08:36.670Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:08:36.686Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:08:53.684Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:08:54.936Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:08:54.948Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T17:08:57.351Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T17:08:57.351Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T17:08:57.354Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T17:09:03.182Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T17:09:03.182Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T17:09:03.183Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:09:05.093Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:09:05.093Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:09:05.093Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:09:05.095Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:09:05.095Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:09:05.120Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:09:05.823Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:09:05.824Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:09:05.824Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:09:05.824Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:09:05.824Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:09:05.828Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:15:22.588Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:15:23.814Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:15:23.846Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:19:05.454Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:19:06.675Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:19:06.686Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-25T17:19:07.257Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-25T17:19:07.359Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-25T17:19:07.360Z"}
+debug: ArticleRequestHandler.create post body: {"ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-25T17:19:07.364Z"}
+debug: > [object Object].create(): args = [{"ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-25T17:19:07.364Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:19:07.365Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:19:07.365Z"}
+debug: Der Artikel ist abgespeichert: {"ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"d7c3efd6-a50e-47e8-ad44-52a7f3e00121","__v":0} {"timestamp":"2018-10-25T17:19:07.391Z"}
+debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/artikel/d7c3efd6-a50e-47e8-ad44-52a7f3e00121 {"timestamp":"2018-10-25T17:19:07.392Z"}

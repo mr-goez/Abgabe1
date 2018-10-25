@@ -2,3 +2,18 @@
 
 ### Hello World
 http://{{host}}
+
+### Suche alle Artikel
+https://{{host}}/artikel
+
+### Neuen Artikel anlegen
+POST https://{{host}}/artikel
+Content-Type: application/json
+
+< .\artikel-neu.json
+
+### Neuen fehlerhaften Artikel anlegen
+POST https://{{host}}/artikel
+Content-Type: application/json
+
+< .\artikel-neu-invalid.json

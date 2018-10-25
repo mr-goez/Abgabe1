@@ -16,11 +16,11 @@ export interface ArticleDocument extends Document {
 }
 export const schema = new Schema({
     _id: { type: String },
-    ean: { Type: Number, required: true },
+    ean: { type: Number, required: true },
     description: { type: String },
     price: Number,
-    availability: { Type: Boolean, required: true },
-    manufacturer: { Type: String },
+    availability: { type: Boolean, required: true },
+    manufacturer: { type: String },
 })
 
 schema.set('toJSON', { getters: true, virtuals: false })
@@ -46,9 +46,9 @@ export const validateArticle = (article: any) => {
     }
     if (isEmpty(ean)) {
         err.ean = 'Der Artikel muss eine EAN haben.'
-    } else if (!ean.match(/^\d.*{6}/)) {
-        err.ean =
-            'Die EAN darf nur aus Ziffern bestehen und muss 6-stellig sein'
+        //  } else if (!ean.matchNumber(/^\d{6}/)) {
+        //      err.ean =
+        //          'Die EAN darf nur aus Ziffern bestehen und muss 6-stellig sein'
     }
     if (isEmpty(availability)) {
         err.ean = 'Die Verfügbarkeit des Artikels muss angegeben sein.'

@@ -1,7 +1,7 @@
 {
-    "ean": 111111,
+    "ean": 223457,
     "description": "Put Test",
-    "price": "$1,999.60",
-    "available": true,
+    "price": "199960",
+    "availability": true,
     "manufacturer": "TestGmBh"
 }

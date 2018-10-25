@@ -4,7 +4,12 @@ import * as express from 'express'
 
 import { json } from 'body-parser'
 
-import { create, helloWorld } from './article/rest'
+import { create, find, helloWorld } from './article/rest'
+import { validateContentType } from './shared/request-handler'
+
+export const PATHS = {
+    artikel: '/artikel',
+}
 
 class App {
     readonly app = express()
@@ -14,16 +19,29 @@ class App {
     }
 
     private routes() {
+        this.articleRoutes()
         const router = Router()
-        router.route('/').get(helloWorld) // Nachverfolgen...
-        this.app.use(router)
+        router.route('/').get(helloWorld)
+        // Nachverfolgen...
         // extrem wichtig sonst bringt der router nichts!!! Schaut in sein Beispiel wie er das routing aufteilt
+        this.app.use(router)
 
-        // todo Routing von post-Methode
+    }
+
+    private articleRoutes() {
+        const router = Router()
+        // get
+        router.route('/').get(find)
+        this.app.use(PATHS.artikel, router)
+
+        // post
         router
             .route('/')
-            .get(helloWorld)
-            .post(json(), create)
+            .get(find)
+            .post(validateContentType, json(), create)
+
+        this.app.use(PATHS.artikel, router)
+        }
     }
-}
+
 export const app = new App().app
