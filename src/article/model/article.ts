@@ -16,11 +16,11 @@ export interface ArticleDocument extends Document {
 }
 export const schema = new Schema({
     _id: { type: String },
-    ean: { Type: Number, required: true },
+    ean: { type: Number, required: true },
     description: { type: String },
     price: Number,
-    availability: { Type: Boolean, required: true },
-    manufacturer: { Type: String },
+    availability: { type: Boolean, required: true },
+    manufacturer: { type: String },
 })
 
 schema.set('toJSON', { getters: true, virtuals: false })
@@ -31,7 +31,7 @@ schema.plugin(beautifyUnique)
 schema.plugin(errorTransform)
 
 // tslint:disable-next-line:variable-name
-export const Article = model<ArticleDocument>('Article', schema)
+export const Article = model<ArticleDocument>('article', schema)
 
 // const isPresent = (obj: string | undefined) => obj !== undefined && obj !== null
 const isEmpty = (obj: string | undefined) =>

@@ -1,0 +1,2081 @@
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T18:16:18.971Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T18:16:20.498Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T18:16:20.535Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T18:17:50.781Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T18:17:50.781Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T18:17:50.782Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T18:17:50.784Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T18:17:50.784Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T18:17:50.805Z"}
+debug: status = 404 {"timestamp":"2018-10-22T18:17:50.805Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T18:17:59.976Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T18:17:59.977Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T18:17:59.977Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T18:17:59.978Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T18:17:59.979Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T18:17:59.979Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T18:17:59.979Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T18:17:59.987Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:03.156Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:03.156Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T18:18:03.156Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T18:18:03.156Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T18:18:03.157Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T18:18:03.157Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T18:18:03.157Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T18:18:03.160Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:03.974Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:03.974Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T18:18:03.975Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T18:18:03.975Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T18:18:03.975Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T18:18:03.975Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T18:18:03.975Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T18:18:03.977Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:15.071Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T18:18:15.071Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T18:18:15.071Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T18:18:15.072Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T18:18:15.072Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T18:18:15.074Z"}
+debug: status = 404 {"timestamp":"2018-10-22T18:18:15.074Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:15.937Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T18:18:15.937Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T18:18:15.937Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T18:18:15.937Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T18:18:15.938Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T18:18:15.939Z"}
+debug: status = 404 {"timestamp":"2018-10-22T18:18:15.939Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:16.459Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T18:18:16.460Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T18:18:16.460Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T18:18:16.462Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T18:18:16.462Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T18:18:16.465Z"}
+debug: status = 404 {"timestamp":"2018-10-22T18:18:16.465Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T18:18:16.948Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T18:18:16.948Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T18:18:16.949Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T18:18:16.949Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T18:18:16.949Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T18:18:16.950Z"}
+debug: status = 404 {"timestamp":"2018-10-22T18:18:16.950Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:12:51.543Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:12:53.358Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:12:53.376Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:12:59.920Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:12:59.921Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:12:59.921Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:12:59.923Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:12:59.923Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:12:59.934Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:12:59.934Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:00.060Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:13:00.060Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:13:00.060Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:13:00.061Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:13:00.061Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:13:00.065Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:13:00.065Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:12.248Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T19:13:12.248Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:13.473Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T19:13:13.474Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:14.031Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T19:13:14.032Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:19.203Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:19.204Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T19:13:19.204Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T19:13:19.204Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:13:19.205Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:13:19.205Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:13:19.205Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:13:19.211Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:20.059Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:20.059Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T19:13:20.059Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T19:13:20.059Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:13:20.059Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:13:20.059Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:13:20.059Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:13:20.063Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:23.278Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T19:13:23.278Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T19:13:23.278Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:13:23.278Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:13:23.279Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:13:23.286Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:13:23.286Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:13:26.736Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T19:13:26.736Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T19:13:26.736Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:13:26.737Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:13:26.737Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:13:26.740Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:13:26.740Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:22:36.745Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:22:36.745Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:22:36.746Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:22:36.746Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:22:36.746Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:22:36.749Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:22:36.749Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:24:11.803Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:24:11.803Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T19:24:11.803Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T19:24:11.803Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:24:11.803Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:24:11.803Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:24:11.803Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:24:11.806Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:24:15.253Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:24:15.253Z"}
+debug: ArticleRequestHandler.findById id = 00000000-0000-0000-0000-000000000001 {"timestamp":"2018-10-22T19:24:15.253Z"}
+debug: > ArticleService.findById(): args = ["00000000-0000-0000-0000-000000000001"] {"timestamp":"2018-10-22T19:24:15.253Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:24:15.254Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:24:15.254Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:24:15.254Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:24:15.256Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:24:58.393Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:24:58.393Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:24:58.393Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:24:58.394Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:24:58.394Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:24:58.397Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:24:58.397Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T19:24:58.837Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T19:24:58.837Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:27:43.647Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:27:45.057Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:27:45.075Z"}
+verbose: > SharedRequestHandler.internalError(): args = <RequestResponse> {"timestamp":"2018-10-22T19:27:59.093Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:28:03.070Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:28:03.071Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T19:28:03.071Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T19:28:03.071Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:28:03.073Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:28:03.073Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:28:03.073Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:28:03.086Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:28:04.563Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:28:04.563Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T19:28:04.563Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T19:28:04.563Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:28:04.564Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:28:04.564Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:28:04.564Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:28:04.566Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:28:11.022Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:28:11.023Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:28:11.023Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:28:11.024Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:28:11.024Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:28:11.029Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:28:11.029Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:28:51.750Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:28:51.750Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:28:51.750Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:28:51.751Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:28:51.751Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:28:51.754Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:28:51.754Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:29:17.938Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:29:17.938Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T19:29:17.938Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T19:29:17.938Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:29:17.939Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:29:17.939Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:29:17.939Z"}
+debug: ArticlehRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:29:17.941Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:29:19.530Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:29:19.530Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:29:19.530Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:29:19.530Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:29:19.530Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:29:19.532Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:29:19.532Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:29:20.905Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T19:29:20.905Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T19:29:20.905Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:29:20.905Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:29:20.905Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:29:20.908Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:29:20.909Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:29:21.735Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T19:29:21.735Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T19:29:21.735Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:29:21.736Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:29:21.736Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:29:21.739Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:29:21.739Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:40:08.880Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:40:10.224Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:40:10.253Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:40:21.747Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:40:23.105Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:40:23.129Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:40:28.947Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:40:30.265Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:40:30.289Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:41:52.659Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:41:54.041Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:41:54.058Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:41:56.714Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:41:56.715Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:41:56.715Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:41:56.717Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:41:56.717Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:41:56.732Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:41:56.732Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:42:06.985Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T19:42:06.985Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T19:42:06.985Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:42:06.987Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:42:06.987Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:42:06.994Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:42:06.995Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:42:08.915Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T19:42:08.915Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T19:42:08.915Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:42:08.915Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:42:08.916Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:42:08.918Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:42:08.918Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:42:11.527Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:42:11.527Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:42:11.527Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:42:11.528Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:42:11.528Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:42:11.529Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:42:11.529Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:42:20.996Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:42:20.996Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:42:20.996Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:42:20.996Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:42:20.996Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:42:20.997Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:42:20.998Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:44:04.542Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:44:05.907Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:44:05.925Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:44:11.806Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:44:11.806Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:44:11.806Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:44:11.808Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:44:11.808Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:44:11.820Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:44:11.820Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:44:13.775Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:44:13.775Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T19:44:13.776Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T19:44:13.776Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:44:13.777Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:44:13.777Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:44:13.777Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:44:13.782Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T19:44:15.126Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T19:44:15.126Z"}
+debug: ArticleRequestHandler.findById id = 00000000-0000-0000-0000-000000000001 {"timestamp":"2018-10-22T19:44:15.126Z"}
+debug: > ArticleService.findById(): args = ["00000000-0000-0000-0000-000000000001"] {"timestamp":"2018-10-22T19:44:15.126Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T19:44:15.127Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T19:44:15.127Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T19:44:15.127Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T19:44:15.128Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:44:16.801Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T19:44:16.801Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T19:44:16.801Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:44:16.802Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:44:16.802Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:44:16.805Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:44:16.805Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:45:15.947Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:45:17.343Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:45:17.359Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:45:26.684Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:45:26.685Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:45:26.685Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:45:26.688Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:45:26.688Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:45:26.700Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:45:26.700Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:48:12.251Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T19:48:12.252Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T19:48:12.252Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:48:12.253Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:48:12.253Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:48:12.260Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:48:12.261Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T19:50:50.520Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T19:50:51.902Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T19:50:51.921Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T19:58:53.711Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T19:58:53.712Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T19:58:53.712Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T19:58:53.716Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T19:58:53.716Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T19:58:53.736Z"}
+debug: status = 404 {"timestamp":"2018-10-22T19:58:53.736Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T20:02:32.774Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T20:02:34.089Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T20:02:34.106Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:02:44.631Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:02:44.631Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:02:44.631Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:02:44.634Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:02:44.634Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:02:44.647Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:02:44.647Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:02:53.707Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:02:53.707Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:02:53.708Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:02:53.708Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:02:53.708Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:02:53.711Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:02:53.712Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T20:02:57.872Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T20:02:57.873Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T20:02:57.873Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T20:02:57.873Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T20:02:57.874Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T20:02:57.874Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T20:02:57.874Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T20:02:57.877Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:03:13.948Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T20:03:13.948Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T20:03:13.948Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:03:13.949Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:03:13.949Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:03:13.953Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:03:13.953Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:03:16.654Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:03:16.654Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:03:16.654Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:03:16.654Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:03:16.654Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:03:16.656Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:03:16.656Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:03:17.983Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:03:17.983Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:03:17.983Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:03:17.983Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:03:17.983Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:03:17.985Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:03:17.985Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:03:18.523Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:03:18.523Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:03:18.523Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:03:18.523Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:03:18.523Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:03:18.525Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:03:18.526Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:03:18.765Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:03:18.765Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:03:18.766Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:03:18.766Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:03:18.766Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:03:18.767Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:03:18.768Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T20:11:46.784Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T20:11:48.137Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T20:11:48.155Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T20:13:33.086Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T20:13:34.433Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T20:13:34.451Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T20:13:52.016Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T20:13:53.353Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T20:13:53.372Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:14:00.825Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:14:00.825Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:14:00.826Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:14:00.826Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:14:00.829Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:14:00.829Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:14:00.830Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:14:00.833Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:14:00.833Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:14:00.834Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:14:00.855Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:14:00.855Z"}
+debug: Response time: 35.440726999999995 ms {"timestamp":"2018-10-22T20:14:00.860Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:19:00.664Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:19:00.664Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:19:00.664Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:19:00.665Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T20:19:00.667Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T20:19:00.667Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T20:19:00.668Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T20:19:00.668Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T20:19:00.669Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T20:19:00.670Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T20:19:00.670Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:19:00.670Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T20:19:00.676Z"}
+debug: Response time: 12.900127999999999 ms {"timestamp":"2018-10-22T20:19:00.677Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:28.516Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:22:28.516Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:22:28.516Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:22:28.516Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:28.518Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:22:28.518Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:22:28.518Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:22:28.518Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:22:28.518Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:22:28.518Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:22:28.521Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:22:28.522Z"}
+debug: Response time: 6.601118 ms {"timestamp":"2018-10-22T20:22:28.523Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:30.240Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:22:30.240Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:22:30.241Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:22:30.241Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:30.242Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:30.242Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T20:22:30.242Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T20:22:30.242Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T20:22:30.242Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T20:22:30.243Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T20:22:30.243Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:22:30.243Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T20:22:30.245Z"}
+debug: Response time: 4.581478 ms {"timestamp":"2018-10-22T20:22:30.245Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:31.532Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:22:31.533Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:22:31.533Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:22:31.533Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:31.534Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T20:22:31.534Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T20:22:31.534Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:22:31.535Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:22:31.535Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:22:31.535Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:22:31.539Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:22:31.540Z"}
+debug: Response time: 7.443143 ms {"timestamp":"2018-10-22T20:22:31.540Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:32.504Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:22:32.504Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:22:32.504Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:22:32.504Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:22:32.506Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T20:22:32.506Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T20:22:32.507Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:22:32.507Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:22:32.507Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:22:32.507Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:22:32.509Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:22:32.509Z"}
+debug: Response time: 5.700879 ms {"timestamp":"2018-10-22T20:22:32.509Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:08.316Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:35:08.317Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:35:08.317Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:35:08.317Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:08.318Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T20:35:08.318Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T20:35:08.318Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:35:08.319Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:35:08.319Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:35:08.319Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:35:08.322Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:35:08.322Z"}
+debug: Response time: 5.76366 ms {"timestamp":"2018-10-22T20:35:08.322Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:09.915Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:35:09.915Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:35:09.916Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:35:09.916Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:09.918Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:09.918Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T20:35:09.918Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T20:35:09.919Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T20:35:09.919Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T20:35:09.919Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T20:35:09.919Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:35:09.919Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T20:35:09.924Z"}
+debug: Response time: 9.035112 ms {"timestamp":"2018-10-22T20:35:09.924Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:10.688Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:35:10.688Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:35:10.688Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:35:10.688Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:10.691Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T20:35:10.691Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T20:35:10.691Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:35:10.691Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:35:10.691Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:35:10.691Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:35:10.695Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:35:10.695Z"}
+debug: Response time: 7.696167999999999 ms {"timestamp":"2018-10-22T20:35:10.695Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:11.303Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T20:35:11.304Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:35:11.304Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:35:11.304Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:35:11.305Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T20:35:11.305Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T20:35:11.305Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:35:11.305Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:35:11.305Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:35:11.305Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:35:11.307Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:35:11.307Z"}
+debug: Response time: 4.312472 ms {"timestamp":"2018-10-22T20:35:11.308Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:52:29.970Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2018-10-22T20:52:29.970Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:52:29.970Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:52:29.971Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:52:29.972Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T20:52:29.972Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T20:52:29.972Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:52:29.972Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:52:29.973Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:52:29.973Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:52:29.976Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:52:29.976Z"}
+debug: Response time: 6.186385 ms {"timestamp":"2018-10-22T20:52:29.976Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:52:41.370Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2018-10-22T20:52:41.370Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:52:41.370Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:52:41.371Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T20:52:41.373Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-22T20:52:41.373Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-22T20:52:41.373Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T20:52:41.374Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T20:52:41.374Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:52:41.374Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T20:52:41.382Z"}
+debug: status = 404 {"timestamp":"2018-10-22T20:52:41.382Z"}
+debug: Response time: 12.674116 ms {"timestamp":"2018-10-22T20:52:41.382Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:52:47.192Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2018-10-22T20:52:47.192Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:52:47.192Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:52:47.193Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T20:52:47.195Z"}
+debug: Response time: 4.0118849999999995 ms {"timestamp":"2018-10-22T20:52:47.196Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T20:52:47.197Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:52:47.197Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T20:57:31.274Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2018-10-22T20:57:31.274Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T20:57:31.275Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T20:57:31.275Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T20:57:31.277Z"}
+debug: Response time: 3.824684 ms {"timestamp":"2018-10-22T20:57:31.278Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T20:57:31.279Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T20:57:31.279Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.365Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:04:48.365Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:04:48.365Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:04:48.366Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.371Z"}
+debug: Response time: 29.366207 ms {"timestamp":"2018-10-22T21:04:48.394Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.399Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.399Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.425Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:04:48.426Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:04:48.426Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:04:48.426Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.427Z"}
+debug: Response time: 2.3148999999999997 ms {"timestamp":"2018-10-22T21:04:48.428Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.428Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.429Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.462Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:04:48.462Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:04:48.462Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:04:48.463Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.476Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.476Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T21:04:48.476Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T21:04:48.477Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T21:04:48.477Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T21:04:48.477Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.477Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.477Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.483Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:04:48.483Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:04:48.483Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:04:48.484Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:04:48.486Z"}
+debug: Response time: 3.4670229999999997 ms {"timestamp":"2018-10-22T21:04:48.486Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.488Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:04:48.489Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T21:04:51.272Z"}
+error: { MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (C:\Users\aa\Documents\GitHub\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (C:\Users\aa\Documents\GitHub\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\connection\pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (C:\Users\aa\Documents\GitHub\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\connection\connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} } {"timestamp":"2018-10-22T21:04:55.648Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T21:05:59.029Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T21:06:00.357Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T21:06:00.385Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:04.966Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:06:04.967Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:06:04.967Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:06:04.967Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:04.971Z"}
+debug: Response time: 10.189136999999999 ms {"timestamp":"2018-10-22T21:06:04.976Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:06:04.984Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:06:04.984Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:32.076Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "de,en-US;q=0.7,en;q=0.3",
+  "accept-encoding": "gzip, deflate, br",
+  "dnt": "1",
+  "upgrade-insecure-requests": "1",
+  "te": "trailers"
+} {"timestamp":"2018-10-22T21:06:32.076Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:06:32.077Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:06:32.077Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:32.079Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:32.079Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T21:06:32.079Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T21:06:32.079Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T21:06:32.081Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T21:06:32.081Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T21:06:32.081Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:06:32.081Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T21:06:32.095Z"}
+debug: Response time: 19.900761 ms {"timestamp":"2018-10-22T21:06:32.096Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:32.255Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept": "*/*",
+  "accept-language": "de,en-US;q=0.7,en;q=0.3",
+  "accept-encoding": "gzip, deflate, br",
+  "dnt": "1",
+  "te": "trailers"
+} {"timestamp":"2018-10-22T21:06:32.256Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:06:32.256Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:06:32.256Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:32.258Z"}
+debug: Response time: 3.3182519999999998 ms {"timestamp":"2018-10-22T21:06:32.259Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:06:32.260Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:06:32.260Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:32.312Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "de,en-US;q=0.7,en;q=0.3",
+  "accept-encoding": "gzip, deflate, br",
+  "dnt": "1",
+  "te": "trailers"
+} {"timestamp":"2018-10-22T21:06:32.312Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:06:32.312Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:06:32.312Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:32.314Z"}
+debug: Response time: 2.784805 ms {"timestamp":"2018-10-22T21:06:32.315Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:06:32.315Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:06:32.315Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:38.501Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "de,en-US;q=0.7,en;q=0.3",
+  "accept-encoding": "gzip, deflate, br",
+  "dnt": "1",
+  "upgrade-insecure-requests": "1",
+  "te": "trailers"
+} {"timestamp":"2018-10-22T21:06:38.501Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:06:38.501Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:06:38.501Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:06:38.504Z"}
+debug: Response time: 3.024514 ms {"timestamp":"2018-10-22T21:06:38.504Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:06:38.505Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:06:38.505Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:09:39.494Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:09:39.495Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:09:39.495Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:09:39.495Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:09:39.497Z"}
+debug: Response time: 2.752844 ms {"timestamp":"2018-10-22T21:09:39.497Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:09:39.498Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:09:39.498Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:09:51.708Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:09:51.709Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:09:51.709Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:09:51.709Z"}
+verbose: > SharedRequestHandler.notFound(): args = <RequestResponse> {"timestamp":"2018-10-22T21:09:51.711Z"}
+debug: Response time: 2.600268 ms {"timestamp":"2018-10-22T21:09:51.711Z"}
+verbose: < SharedRequestHandler.notFound(): result = void || undefined {"timestamp":"2018-10-22T21:09:51.712Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:09:51.712Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:10:09.808Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:10:09.808Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:10:09.808Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:10:09.808Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T21:10:09.810Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T21:10:09.811Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T21:10:09.811Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T21:10:09.812Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T21:10:09.812Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:10:09.812Z"}
+debug: ArticleRequestHandler.find: buecher = [] {"timestamp":"2018-10-22T21:10:09.819Z"}
+debug: status = 404 {"timestamp":"2018-10-22T21:10:09.819Z"}
+debug: Response time: 11.834755999999999 ms {"timestamp":"2018-10-22T21:10:09.819Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T21:15:45.772Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T21:15:47.483Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T21:15:47.500Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:15:54.081Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:15:54.081Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:15:54.081Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:15:54.081Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T21:15:54.084Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T21:15:54.084Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T21:15:54.084Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T21:15:54.087Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T21:15:54.087Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:15:54.087Z"}
+debug: ArticleRequestHandler.find: artikel = [] {"timestamp":"2018-10-22T21:15:54.101Z"}
+debug: status = 404 {"timestamp":"2018-10-22T21:15:54.101Z"}
+debug: Response time: 23.828557 ms {"timestamp":"2018-10-22T21:15:54.104Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:15:55.967Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:15:55.967Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:15:55.967Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:15:55.967Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T21:15:55.970Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T21:15:55.971Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T21:15:55.971Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T21:15:55.971Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T21:15:55.972Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T21:15:55.972Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T21:15:55.973Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:15:55.973Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T21:15:55.979Z"}
+debug: Response time: 12.614379999999999 ms {"timestamp":"2018-10-22T21:15:55.980Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:17:51.233Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:17:51.233Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:17:51.233Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:17:51.233Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T21:17:51.235Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T21:17:51.235Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T21:17:51.235Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T21:17:51.236Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T21:17:51.236Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:17:51.236Z"}
+debug: ArticleRequestHandler.find: artikel = [] {"timestamp":"2018-10-22T21:17:51.239Z"}
+debug: status = 404 {"timestamp":"2018-10-22T21:17:51.239Z"}
+debug: Response time: 6.483167 ms {"timestamp":"2018-10-22T21:17:51.239Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-22T21:41:27.642Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-22T21:41:29.012Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-22T21:41:29.029Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:41:52.416Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:41:52.417Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:41:52.417Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:41:52.417Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T21:41:52.420Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-22T21:41:52.420Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-22T21:41:52.420Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T21:41:52.422Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T21:41:52.423Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:41:52.423Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-22T21:41:52.448Z"}
+debug: status = 404 {"timestamp":"2018-10-22T21:41:52.448Z"}
+debug: Response time: 37.795199 ms {"timestamp":"2018-10-22T21:41:52.454Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:41:54.835Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:41:54.835Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:41:54.835Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:41:54.835Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-22T21:41:54.837Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-22T21:41:54.838Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-22T21:41:54.838Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-22T21:41:54.838Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-22T21:41:54.839Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-22T21:41:54.839Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-22T21:41:54.839Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:41:54.839Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-22T21:41:54.845Z"}
+debug: Response time: 10.926527 ms {"timestamp":"2018-10-22T21:41:54.846Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-22T21:41:56.267Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-22T21:41:56.267Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-22T21:41:56.267Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-22T21:41:56.267Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-22T21:41:56.270Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-22T21:41:56.271Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-22T21:41:56.271Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-22T21:41:56.271Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-22T21:41:56.271Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-22T21:41:56.271Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-22T21:41:56.279Z"}
+debug: status = 404 {"timestamp":"2018-10-22T21:41:56.279Z"}
+debug: Response time: 13.073250999999999 ms {"timestamp":"2018-10-22T21:41:56.280Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:30:44.389Z"}
+error: { MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (C:\Users\aa\Documents\GitHub\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (C:\Users\aa\Documents\GitHub\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\connection\pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (C:\Users\aa\Documents\GitHub\Abgabe1\node_modules\mongodb\node_modules\mongodb-core\lib\connection\connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} } {"timestamp":"2018-10-23T12:30:49.101Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:36:57.829Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:36:58.103Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:10.300Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:10.300Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:10.300Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:10.301Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:10.303Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T12:37:10.304Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T12:37:10.304Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:37:10.305Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:37:10.305Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:10.306Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:37:10.309Z"}
+debug: Response time: 14.809806 ms {"timestamp":"2018-10-23T12:37:10.315Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:13.264Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:13.264Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:13.264Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:13.264Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:13.267Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:13.268Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T12:37:13.268Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T12:37:13.269Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T12:37:13.269Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T12:37:13.269Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T12:37:13.269Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:13.269Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":"$2,810.58","available":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T12:37:13.270Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T12:37:13.270Z"}
+debug: Response time: 6.647538 ms {"timestamp":"2018-10-23T12:37:13.270Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:16.565Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:16.566Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:16.566Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:16.566Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:16.569Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-23T12:37:16.569Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-23T12:37:16.569Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:37:16.569Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:37:16.569Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:16.570Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:37:16.570Z"}
+debug: Response time: 5.436058 ms {"timestamp":"2018-10-23T12:37:16.571Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:34.211Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:34.211Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:34.211Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:34.211Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:34.213Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-23T12:37:34.213Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-23T12:37:34.213Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:37:34.213Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:37:34.213Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:34.213Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:37:34.214Z"}
+debug: Response time: 2.855957 ms {"timestamp":"2018-10-23T12:37:34.214Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:36.302Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:36.302Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:36.302Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:36.303Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:36.306Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-23T12:37:36.306Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-23T12:37:36.306Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:37:36.306Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:37:36.307Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:36.307Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:37:36.309Z"}
+debug: Response time: 7.381123 ms {"timestamp":"2018-10-23T12:37:36.309Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:37.445Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:37.446Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:37.446Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:37.446Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:37.447Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-23T12:37:37.447Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-23T12:37:37.447Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:37:37.447Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:37:37.447Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:37.448Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:37:37.448Z"}
+debug: Response time: 3.154642 ms {"timestamp":"2018-10-23T12:37:37.449Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:40.192Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:40.192Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:40.192Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:40.192Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:40.194Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T12:37:40.194Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T12:37:40.194Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:37:40.194Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:37:40.194Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:40.194Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:37:40.194Z"}
+debug: Response time: 2.654677 ms {"timestamp":"2018-10-23T12:37:40.195Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:43.170Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:43.170Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:43.170Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:43.170Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:43.171Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:43.172Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T12:37:43.172Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T12:37:43.172Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T12:37:43.172Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T12:37:43.172Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T12:37:43.172Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:43.172Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":"$2,810.58","available":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T12:37:43.173Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T12:37:43.173Z"}
+debug: Response time: 3.3357539999999997 ms {"timestamp":"2018-10-23T12:37:43.173Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:57.373Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:37:57.373Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:37:57.373Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:37:57.373Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:37:57.376Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-23T12:37:57.377Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-23T12:37:57.377Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:37:57.377Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:37:57.377Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:37:57.377Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:37:57.378Z"}
+debug: Response time: 6.006793 ms {"timestamp":"2018-10-23T12:37:57.379Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:38:09.364Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:38:09.364Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:38:09.364Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:38:09.364Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:38:09.365Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-23T12:38:09.365Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-23T12:38:09.365Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:38:09.365Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:38:09.365Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:38:09.366Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:38:09.366Z"}
+debug: Response time: 2.5397689999999997 ms {"timestamp":"2018-10-23T12:38:09.366Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:46:22.625Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:46:22.884Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:46:38.378Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:46:38.379Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:46:38.379Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:46:38.379Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:46:38.383Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T12:46:38.383Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T12:46:38.384Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:46:38.384Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:46:38.384Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:46:38.384Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:46:38.386Z"}
+debug: Response time: 13.042810999999999 ms {"timestamp":"2018-10-23T12:46:38.391Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:46:51.504Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:46:51.504Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:46:51.504Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:46:51.504Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T12:46:51.506Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T12:46:51.506Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T12:46:51.507Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T12:46:51.507Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T12:46:51.507Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T12:46:51.507Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T12:46:51.507Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:46:51.507Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":"$2,810.58","available":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T12:46:51.508Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T12:46:51.508Z"}
+debug: Response time: 4.239418 ms {"timestamp":"2018-10-23T12:46:51.508Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:46:59.586Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:46:59.586Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:46:59.587Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:46:59.587Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:46:59.590Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-23T12:46:59.590Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-23T12:46:59.590Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:46:59.590Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:46:59.590Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:46:59.590Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:46:59.591Z"}
+debug: Response time: 5.734743 ms {"timestamp":"2018-10-23T12:46:59.592Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:07.798Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:47:07.798Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:47:07.798Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:47:07.799Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:07.800Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:07.800Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T12:47:07.800Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T12:47:07.800Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T12:47:07.800Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T12:47:07.800Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T12:47:07.800Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:47:07.800Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":"$2,810.58","available":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T12:47:07.801Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T12:47:07.801Z"}
+debug: Response time: 3.282105 ms {"timestamp":"2018-10-23T12:47:07.801Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:53.268Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:47:53.269Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:47:53.269Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:47:53.269Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:53.270Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T12:47:53.270Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T12:47:53.270Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:47:53.270Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:47:53.270Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:47:53.270Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:47:53.271Z"}
+debug: Response time: 2.940806 ms {"timestamp":"2018-10-23T12:47:53.271Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:57.529Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:47:57.530Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:47:57.530Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:47:57.530Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:57.533Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T12:47:57.533Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T12:47:57.533Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T12:47:57.533Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T12:47:57.533Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T12:47:57.533Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T12:47:57.533Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:47:57.534Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":"$2,810.58","available":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T12:47:57.535Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T12:47:57.535Z"}
+debug: Response time: 6.655908999999999 ms {"timestamp":"2018-10-23T12:47:57.536Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:00.107Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:48:00.107Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:48:00.107Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:48:00.107Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:00.110Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-23T12:48:00.110Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-23T12:48:00.110Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:48:00.110Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:48:00.110Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:48:00.110Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:48:00.111Z"}
+debug: Response time: 3.9901969999999998 ms {"timestamp":"2018-10-23T12:48:00.111Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:48:43.072Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:48:43.392Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:45.981Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:48:45.982Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:48:45.982Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:48:45.983Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:45.988Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T12:48:45.988Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T12:48:45.989Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:48:45.989Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:48:45.990Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:48:45.990Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:48:45.993Z"}
+debug: Response time: 17.297068 ms {"timestamp":"2018-10-23T12:48:45.998Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:48.299Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:48:48.299Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:48:48.299Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:48:48.299Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:48.303Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:48.304Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T12:48:48.305Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T12:48:48.305Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T12:48:48.305Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T12:48:48.305Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T12:48:48.305Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:48:48.306Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":"$2,810.58","available":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T12:48:48.307Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T12:48:48.307Z"}
+debug: Response time: 8.871501 ms {"timestamp":"2018-10-23T12:48:48.307Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:53.169Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:48:53.169Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:48:53.169Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:48:53.169Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:53.171Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T12:48:53.171Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T12:48:53.171Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:48:53.172Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:48:53.172Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:48:53.172Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:48:53.172Z"}
+debug: Response time: 4.333399 ms {"timestamp":"2018-10-23T12:48:53.173Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:54.828Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:48:54.828Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:48:54.828Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:48:54.828Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:54.829Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-23T12:48:54.829Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-23T12:48:54.829Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:48:54.829Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:48:54.829Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:48:54.830Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:48:54.830Z"}
+debug: Response time: 2.5953209999999998 ms {"timestamp":"2018-10-23T12:48:54.830Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:56.574Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:48:56.574Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:48:56.575Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:48:56.575Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:48:56.577Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-23T12:48:56.577Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-23T12:48:56.577Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:48:56.577Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:48:56.577Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:48:56.578Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T12:48:56.579Z"}
+debug: Response time: 4.610015 ms {"timestamp":"2018-10-23T12:48:56.579Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T12:51:22.489Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T12:51:23.851Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T12:51:23.870Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T12:51:29.439Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T12:51:29.439Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T12:51:29.439Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T12:51:29.439Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T12:51:29.441Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T12:51:29.442Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T12:51:29.442Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T12:51:29.444Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T12:51:29.444Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T12:51:29.444Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T12:51:29.456Z"}
+debug: status = 404 {"timestamp":"2018-10-23T12:51:29.457Z"}
+debug: Response time: 21.431091 ms {"timestamp":"2018-10-23T12:51:29.460Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T13:06:55.981Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T13:06:57.484Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T13:06:57.502Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:07:05.607Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:07:05.607Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:07:05.608Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:07:05.608Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:07:05.610Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:07:05.610Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:07:05.610Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:07:05.612Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:07:05.612Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:07:05.612Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:07:05.628Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:07:05.628Z"}
+debug: Response time: 23.703757 ms {"timestamp":"2018-10-23T13:07:05.631Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T13:08:34.486Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T13:08:34.742Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:09:02.378Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:09:02.379Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:09:02.379Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:09:02.379Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:09:02.381Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:09:02.381Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:09:02.381Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:09:02.382Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:09:02.382Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:09:02.382Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:09:02.383Z"}
+debug: Response time: 9.252752 ms {"timestamp":"2018-10-23T13:09:02.388Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:09:54.979Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:09:54.979Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:09:54.979Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:09:54.979Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:09:54.980Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:09:54.981Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:09:54.981Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:09:54.981Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:09:54.981Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:09:54.981Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:09:54.981Z"}
+debug: Response time: 3.452184 ms {"timestamp":"2018-10-23T13:09:54.982Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T13:10:13.743Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T13:10:14.000Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:10:26.480Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:10:26.480Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:10:26.480Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:10:26.480Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:10:26.483Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:10:26.483Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:10:26.483Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:10:26.483Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:10:26.484Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:10:26.484Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:10:26.485Z"}
+debug: Response time: 9.420929 ms {"timestamp":"2018-10-23T13:10:26.489Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:11:32.752Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:11:32.752Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:11:32.752Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:11:32.752Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:11:32.754Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:11:32.754Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:11:32.754Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:11:32.754Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:11:32.754Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:11:32.754Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:11:32.755Z"}
+debug: Response time: 3.3502129999999997 ms {"timestamp":"2018-10-23T13:11:32.755Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:11:38.824Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:11:38.825Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:11:38.825Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:11:38.825Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:11:38.828Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:11:38.829Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:11:38.829Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:11:38.829Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:11:38.830Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:11:38.830Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:11:38.830Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:11:38.830Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availabillity":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T13:11:38.831Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T13:11:38.831Z"}
+debug: Response time: 7.209522 ms {"timestamp":"2018-10-23T13:11:38.831Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:34.942Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:12:34.942Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:12:34.942Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:12:34.943Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:34.945Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:34.945Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:12:34.946Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:12:34.946Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:12:34.946Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:12:34.946Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:12:34.946Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:12:34.946Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availabillity":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T13:12:34.947Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T13:12:34.947Z"}
+debug: Response time: 5.620596 ms {"timestamp":"2018-10-23T13:12:34.948Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:45.741Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:12:45.741Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:12:45.741Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:12:45.741Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:45.743Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:12:45.743Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:12:45.743Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:12:45.743Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:12:45.743Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:12:45.743Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:12:45.743Z"}
+debug: Response time: 2.818288 ms {"timestamp":"2018-10-23T13:12:45.744Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:51.406Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:12:51.406Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:12:51.406Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:12:51.406Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:51.410Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:12:51.410Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:12:51.410Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:12:51.410Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:12:51.410Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:12:51.410Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:12:51.410Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:12:51.410Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availabillity":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T13:12:51.411Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T13:12:51.411Z"}
+debug: Response time: 5.627064 ms {"timestamp":"2018-10-23T13:12:51.412Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T13:13:57.361Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T13:13:57.622Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:14:02.954Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:14:02.955Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:14:02.955Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:14:02.956Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:14:02.960Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:14:02.961Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:14:02.961Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:14:02.962Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:14:02.963Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:14:02.963Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:14:02.965Z"}
+debug: Response time: 17.276141 ms {"timestamp":"2018-10-23T13:14:02.971Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:14:04.329Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:14:04.329Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:14:04.329Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:14:04.329Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:14:04.331Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:14:04.332Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:14:04.332Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:14:04.332Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:14:04.333Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:14:04.333Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:14:04.333Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:14:04.333Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T13:14:04.334Z"}
+debug: ArticleRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T13:14:04.334Z"}
+debug: Response time: 5.94211 ms {"timestamp":"2018-10-23T13:14:04.334Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:19:28.911Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:19:28.911Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:19:28.911Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:19:28.911Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:19:28.913Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:19:28.913Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:19:28.913Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:19:28.913Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:19:28.913Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:19:28.913Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:19:28.915Z"}
+debug: Response time: 6.158608999999999 ms {"timestamp":"2018-10-23T13:19:28.917Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:19:35.488Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:19:35.488Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:19:35.489Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:19:35.489Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:19:35.491Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:19:35.491Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:19:35.491Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:19:35.491Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:19:35.492Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:19:35.492Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:19:35.492Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:19:35.492Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse","__v":0,"erzeugt":0,"aktualisiert":0} {"timestamp":"2018-10-23T13:19:35.493Z"}
+debug: ArticleRequestHandler.findById VersionDb = 0 {"timestamp":"2018-10-23T13:19:35.493Z"}
+debug: Response time: 5.63125 ms {"timestamp":"2018-10-23T13:19:35.494Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:19:55.829Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:19:55.830Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:19:55.830Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:19:55.830Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:19:55.832Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-23T13:19:55.832Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-23T13:19:55.832Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:19:55.832Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:19:55.832Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:19:55.832Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:19:55.833Z"}
+debug: Response time: 3.6447119999999997 ms {"timestamp":"2018-10-23T13:19:55.833Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:20:01.024Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:20:01.024Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:20:01.024Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:20:01.024Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:20:01.026Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-23T13:20:01.026Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-23T13:20:01.026Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:20:01.026Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:20:01.026Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:20:01.026Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:20:01.026Z"}
+debug: Response time: 3.1854609999999997 ms {"timestamp":"2018-10-23T13:20:01.027Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:20:04.983Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:20:04.983Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:20:04.983Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:20:04.983Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:20:04.986Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:20:04.987Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:20:04.987Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:20:04.987Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:20:04.987Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:20:04.987Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:20:04.988Z"}
+debug: Response time: 5.228311 ms {"timestamp":"2018-10-23T13:20:04.988Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:20:05.819Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:20:05.819Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:20:05.819Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:20:05.819Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:20:05.821Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:20:05.821Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:20:05.821Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:20:05.821Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:20:05.821Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:20:05.821Z"}
+debug: ArticleRequestHandler.find: article = [{},{}] {"timestamp":"2018-10-23T13:20:05.821Z"}
+debug: Response time: 3.000923 ms {"timestamp":"2018-10-23T13:20:05.822Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-23T13:35:19.529Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-23T13:35:21.161Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-23T13:35:21.177Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:28.465Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:28.465Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:28.466Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:28.466Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:28.468Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:35:28.468Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:35:28.468Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:35:28.470Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:35:28.470Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:28.470Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:35:28.483Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:35:28.483Z"}
+debug: Response time: 23.025344 ms {"timestamp":"2018-10-23T13:35:28.488Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:30.995Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:30.995Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:30.995Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:30.995Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:30.997Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:30.998Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:35:30.998Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:35:30.998Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:35:30.999Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:35:30.999Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:35:30.999Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:30.999Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-23T13:35:31.005Z"}
+debug: Response time: 10.384329 ms {"timestamp":"2018-10-23T13:35:31.005Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:32.289Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:32.289Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:32.290Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:32.290Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:32.291Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:32.291Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:35:32.291Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:35:32.292Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:35:32.292Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:35:32.292Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:35:32.292Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:32.292Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-23T13:35:32.294Z"}
+debug: Response time: 5.074973 ms {"timestamp":"2018-10-23T13:35:32.294Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:32.515Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:32.516Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:32.516Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:32.516Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:32.518Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:32.518Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:35:32.518Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:35:32.519Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:35:32.519Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:35:32.519Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:35:32.519Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:32.519Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-23T13:35:32.522Z"}
+debug: Response time: 6.999491 ms {"timestamp":"2018-10-23T13:35:32.522Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:34.238Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:34.239Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:34.239Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:34.239Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:34.240Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-23T13:35:34.240Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-23T13:35:34.240Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:35:34.241Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:35:34.241Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:34.241Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:35:34.244Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:35:34.244Z"}
+debug: Response time: 6.013642 ms {"timestamp":"2018-10-23T13:35:34.244Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:35.644Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:35.644Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:35.644Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:35.644Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:35.645Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-23T13:35:35.645Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-23T13:35:35.645Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:35:35.645Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:35:35.646Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:35.646Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:35:35.648Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:35:35.648Z"}
+debug: Response time: 4.518317 ms {"timestamp":"2018-10-23T13:35:35.648Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:36.920Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:36.920Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:36.920Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:36.920Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:36.923Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:36.923Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:35:36.923Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:35:36.923Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:35:36.923Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:35:36.923Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:35:36.924Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:36.924Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-23T13:35:36.927Z"}
+debug: Response time: 7.243385 ms {"timestamp":"2018-10-23T13:35:36.927Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:37.452Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:37.452Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:37.452Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:37.452Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:37.454Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:37.454Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:35:37.455Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:35:37.455Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:35:37.455Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:35:37.455Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:35:37.455Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:37.455Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-23T13:35:37.457Z"}
+debug: Response time: 6.037233 ms {"timestamp":"2018-10-23T13:35:37.458Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:37.642Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:37.642Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:37.642Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:37.642Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:37.646Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:37.646Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:35:37.646Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:35:37.646Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:35:37.646Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:35:37.646Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:35:37.646Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:37.646Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-23T13:35:37.649Z"}
+debug: Response time: 7.532557 ms {"timestamp":"2018-10-23T13:35:37.649Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:38.725Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:38.725Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:38.725Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:38.725Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:38.727Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:35:38.727Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:35:38.727Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:35:38.727Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:35:38.727Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:38.727Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:35:38.729Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:35:38.729Z"}
+debug: Response time: 4.530492 ms {"timestamp":"2018-10-23T13:35:38.729Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:39.363Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:39.363Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:39.363Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:39.363Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:39.365Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:35:39.365Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:35:39.365Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:35:39.365Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:35:39.365Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:39.365Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:35:39.367Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:35:39.367Z"}
+debug: Response time: 4.0529779999999995 ms {"timestamp":"2018-10-23T13:35:39.367Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:39.643Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:39.644Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:39.644Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:39.644Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:39.645Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:35:39.645Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:35:39.645Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:35:39.645Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:35:39.645Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:39.645Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:35:39.647Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:35:39.647Z"}
+debug: Response time: 3.726518 ms {"timestamp":"2018-10-23T13:35:39.647Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:39.843Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:39.843Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:39.843Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:39.843Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:39.845Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-23T13:35:39.845Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-23T13:35:39.845Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-23T13:35:39.845Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-23T13:35:39.845Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:39.845Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-23T13:35:39.848Z"}
+debug: status = 404 {"timestamp":"2018-10-23T13:35:39.848Z"}
+debug: Response time: 5.493893 ms {"timestamp":"2018-10-23T13:35:39.848Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:56.638Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-23T13:35:56.638Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-23T13:35:56.638Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-23T13:35:56.639Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:56.640Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-23T13:35:56.640Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-23T13:35:56.641Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-23T13:35:56.641Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-23T13:35:56.641Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-23T13:35:56.641Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-23T13:35:56.641Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-23T13:35:56.641Z"}
+debug: ArticleRequestHandler.findById status = 404 {"timestamp":"2018-10-23T13:35:56.644Z"}
+debug: Response time: 6.0756619999999995 ms {"timestamp":"2018-10-23T13:35:56.644Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:19:14.600Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:19:16.415Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:19:16.435Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:19:27.795Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:19:27.795Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:19:27.796Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:19:27.796Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:19:27.799Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:19:27.799Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T17:19:27.799Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:19:27.801Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:19:27.801Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:19:27.801Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T17:19:27.827Z"}
+debug: Response time: 37.998379 ms {"timestamp":"2018-10-25T17:19:27.833Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:19:51.879Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:19:51.880Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:19:51.880Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:19:51.880Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-25T17:19:51.882Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-25T17:19:51.882Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-25T17:19:51.883Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-25T17:19:51.883Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-25T17:19:51.884Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-25T17:19:51.884Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-25T17:19:51.884Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:19:51.884Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"} {"timestamp":"2018-10-25T17:19:51.890Z"}
+debug: ArticleRequestHandler.findById VersionDb = undefined {"timestamp":"2018-10-25T17:19:51.890Z"}
+debug: Response time: 11.211514 ms {"timestamp":"2018-10-25T17:19:51.890Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:30.370Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:20:30.371Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:20:30.371Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:20:30.371Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:30.374Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T17:20:30.374Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T17:20:30.374Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:20:30.374Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:20:30.374Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:20:30.374Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T17:20:30.380Z"}
+debug: Response time: 10.536524 ms {"timestamp":"2018-10-25T17:20:30.381Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:34.759Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:20:34.760Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:20:34.760Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:20:34.760Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:34.764Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"a"} {"timestamp":"2018-10-25T17:20:34.764Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"a"}] {"timestamp":"2018-10-25T17:20:34.764Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:20:34.765Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:20:34.765Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:20:34.765Z"}
+debug: ArticleRequestHandler.find: article = [] {"timestamp":"2018-10-25T17:20:34.768Z"}
+debug: status = 404 {"timestamp":"2018-10-25T17:20:34.769Z"}
+debug: Response time: 10.615667 ms {"timestamp":"2018-10-25T17:20:34.770Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:42.360Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:20:42.360Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:20:42.360Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:20:42.360Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:42.363Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T17:20:42.363Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T17:20:42.363Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:20:42.363Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:20:42.363Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:20:42.363Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T17:20:42.366Z"}
+debug: Response time: 6.7126019999999995 ms {"timestamp":"2018-10-25T17:20:42.366Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:52.868Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:20:52.868Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:20:52.868Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:20:52.868Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:52.870Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:52.870Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-25T17:20:52.870Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-25T17:20:52.870Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-25T17:20:52.871Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-25T17:20:52.871Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-25T17:20:52.871Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:20:52.871Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"} {"timestamp":"2018-10-25T17:20:52.875Z"}
+debug: ArticleRequestHandler.findById VersionDb = undefined {"timestamp":"2018-10-25T17:20:52.875Z"}
+debug: Response time: 7.541309 ms {"timestamp":"2018-10-25T17:20:52.875Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:59.071Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:20:59.071Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:20:59.071Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:20:59.071Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:20:59.073Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:20:59.073Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T17:20:59.073Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:20:59.073Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:20:59.073Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:20:59.073Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T17:20:59.076Z"}
+debug: Response time: 5.900256 ms {"timestamp":"2018-10-25T17:20:59.077Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:21:09.041Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:21:09.042Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:21:09.042Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:21:09.042Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:21:09.045Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T17:21:09.045Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T17:21:09.045Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:21:09.045Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:21:09.045Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:21:09.045Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T17:21:09.050Z"}
+debug: Response time: 8.881774 ms {"timestamp":"2018-10-25T17:21:09.050Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:21:27.852Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:21:27.852Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:21:27.852Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:21:27.852Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:21:27.854Z"}
+debug: ArticleRequestHandler.find queryParams = {"manufacturer":"esse"} {"timestamp":"2018-10-25T17:21:27.854Z"}
+debug: > ArticleService.find(): args = [{"manufacturer":"esse"}] {"timestamp":"2018-10-25T17:21:27.854Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:21:27.855Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:21:27.855Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:21:27.855Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-25T17:21:27.858Z"}
+debug: Response time: 6.452347 ms {"timestamp":"2018-10-25T17:21:27.859Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:22:50.149Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:22:51.516Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:22:51.537Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:22:56.902Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:22:56.902Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:22:56.903Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:22:56.903Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:22:56.905Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:22:56.905Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-25T17:22:56.906Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:22:56.908Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:22:56.908Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:22:56.908Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"}] {"timestamp":"2018-10-25T17:22:56.930Z"}
+debug: Response time: 31.383944999999997 ms {"timestamp":"2018-10-25T17:22:56.933Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-25T17:23:24.154Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-25T17:23:24.154Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-25T17:23:24.154Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-25T17:23:24.155Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:23:24.156Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-25T17:23:24.156Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-25T17:23:24.156Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-25T17:23:24.156Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-25T17:23:24.156Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-25T17:23:24.156Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"}] {"timestamp":"2018-10-25T17:23:24.160Z"}
+debug: Response time: 6.762446 ms {"timestamp":"2018-10-25T17:23:24.161Z"}

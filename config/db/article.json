@@ -2,8 +2,8 @@
     "_id": "0ca33d98-483f-4168-b9c0-86b11ebd3cc6",
     "ean": 781641,
     "description": "Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.",
-    "price": "$2,810.58",
-    "available": false,
+    "price": 2810.58,
+    "availability": false,
     "manufacturer": "esse"
 }
 
@@ -11,8 +11,8 @@
     "_id": "1919bbaf-b598-4f7b-b975-0b801be4c1a2",
     "ean": 911631,
     "description": "Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.",
-    "price": "$1,995.34",
-    "available": true,
+    "price": 1995.34,
+    "availability": true,
     "manufacturer": "aute"
 }
 
@@ -20,8 +20,8 @@
     "_id": "7637ca05-0cd5-48a4-a03e-3ada51cee420",
     "ean": 409010,
     "description": "Dolore velit sit do velit ut non eiusmod.",
-    "price": "$2,979.59",
-    "available": true,
+    "price": 2979.59,
+    "availability": true,
     "manufacturer": "dolore"
 }
 
@@ -29,8 +29,8 @@
     "_id": "f3d1e940-66ac-44e0-bb85-fae2a980141f",
     "ean": 161180,
     "description": "Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.",
-    "price": "$3,954.98",
-    "available": true,
+    "price": 3954.98,
+    "availability": true,
     "manufacturer": "aliqua"
 }
 
@@ -38,8 +38,8 @@
     "_id": "0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684",
     "ean": 733096,
     "description": "Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.",
-    "price": "$3,824.01",
-    "available": true,
+    "price": 3824.01,
+    "availability": true,
     "manufacturer": "est"
 }
 
@@ -47,8 +47,8 @@
     "_id": "3b953e19-4264-49d2-a98d-ed1b2b36d37f",
     "ean": 737771,
     "description": "Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.",
-    "price": "$2,621.49",
-    "available": true,
+    "price": 2621.49,
+    "availability": true,
     "manufacturer": "minim"
 }
 
@@ -56,7 +56,7 @@
     "_id": "2a40aa5d-24b9-4f94-b077-e7140c00cf25",
     "ean": 356669,
     "description": "Elit velit magna labore qui magna amet ex occaecat ut qui.",
-    "price": "$1,080.34",
-    "available": false,
+    "price": 1080.34,
+    "availability": false,
     "manufacturer": "ea"
 }
