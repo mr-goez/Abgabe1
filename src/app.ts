@@ -25,7 +25,6 @@ class App {
         const router = Router()
         router.route('/').get(helloWorld)
         this.app.use(router)
-
     }
 
     private articleRoutes() {
@@ -41,7 +40,7 @@ class App {
             .post(validateContentType, json(), create)
 
         this.app.use(PATHS.articles, router)
-        }
     }
+}
 
 export const app = new App().app

@@ -1242,3 +1242,15 @@ debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:52:10
 debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:52:10.667Z"}
 debug: Der Artikel ist abgespeichert: {"ean":323457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"471daff5-8ca8-4565-9160-09092fdb8a2e","__v":0} {"timestamp":"2018-10-25T17:52:10.690Z"}
 debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/articles/471daff5-8ca8-4565-9160-09092fdb8a2e {"timestamp":"2018-10-25T17:52:10.690Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T18:00:43.967Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T18:00:45.463Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T18:00:45.481Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T18:01:30.611Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T18:01:30.611Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T18:01:30.614Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T18:01:34.255Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T18:01:34.256Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T18:01:34.256Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T18:01:34.259Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T18:01:34.259Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"d7c3efd6-a50e-47e8-ad44-52a7f3e00121","ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"471daff5-8ca8-4565-9160-09092fdb8a2e","ean":323457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T18:01:34.290Z"}
