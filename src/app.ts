@@ -20,6 +20,8 @@ class App {
 
     private routes() {
         this.articleRoutes()
+
+        // index
         const router = Router()
         router.route('/').get(helloWorld)
         this.app.use(router)
