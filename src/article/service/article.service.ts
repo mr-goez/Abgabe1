@@ -37,18 +37,6 @@ export class ArticleService {
         if (Object.keys(query).length === 0) {
              return tmpQuery.sort('manufacturer')
         }
-
-        // const { manufacturer, javascript, typescript, ...dbQuery } = query
-
-        // // Artikel zur Query (= JSON-Objekt durch Express) asynchron suchen
-        // if (manufacturer !== undefined) {
-        //     // Hersteller in der Query: Teilstring des Herstellers,
-        //     // d.h. "LIKE" als regulaerer Ausdruck
-        //     // 'i': keine Unterscheidung zw. Gross- u. Kleinschreibung
-        //     dbQuery.manufacturer = new RegExp(manufacturer, 'i')
-        // }
-        // Pattern "Active Record" (urspruengl. von Ruby-on-Rails)
-        // leeres Array, falls nichts gefunden wird
         return Article.find(tmpQuery)
     }
 
