@@ -1195,3 +1195,18 @@ debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:19:07
 debug: < [object Object].create(): result = {} {"timestamp":"2018-10-25T17:19:07.365Z"}
 debug: Der Artikel ist abgespeichert: {"ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"d7c3efd6-a50e-47e8-ad44-52a7f3e00121","__v":0} {"timestamp":"2018-10-25T17:19:07.391Z"}
 debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/artikel/d7c3efd6-a50e-47e8-ad44-52a7f3e00121 {"timestamp":"2018-10-25T17:19:07.392Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-25T17:48:46.669Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-25T17:48:48.066Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-25T17:48:48.076Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-25T17:49:03.952Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-25T17:49:03.953Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-25T17:49:03.953Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:49:03.957Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-25T17:49:03.958Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"d7c3efd6-a50e-47e8-ad44-52a7f3e00121","ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-25T17:49:03.980Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T17:49:07.927Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T17:49:07.928Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T17:49:07.929Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-25T17:49:08.050Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-25T17:49:08.050Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-25T17:49:08.051Z"}
