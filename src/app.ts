@@ -2,13 +2,15 @@ import { Router } from 'express'
 // tslint:disable-next-line:no-duplicate-imports            // Probiert es aus diese Zeile zu löschen!
 import * as express from 'express'
 
-import { json } from 'body-parser'
+import { json, urlencoded } from 'body-parser'
 
 import { create, find, helloWorld } from './article/rest'
+import { login, validateJwt, isAdminMitarbeiter } from './auth/rest'
 import { validateContentType } from './shared/request-handler'
 
 export const PATHS = {
     articles: '/articles',
+    login: '/login',
 }
 
 class App {
@@ -20,6 +22,7 @@ class App {
 
     private routes() {
         this.articleRoutes()
+        this.loginRoutes()
 
         // index
         const router = Router()
@@ -37,9 +40,27 @@ class App {
         router
             .route('/')
             .get(find)
-            .post(validateContentType, json(), create)
+            .post(
+                validateContentType,
+                validateJwt,
+                isAdminMitarbeiter,
+                json(),
+                create,
+                )
 
         this.app.use(PATHS.articles, router)
+    }
+
+    private loginRoutes() {
+        const router = Router()
+        router.route('/').post(
+            urlencoded({
+                extended: false,
+                type: 'application/x-www-form-urlencoded',
+            }),
+            login,
+        )
+        this.app.use(PATHS.login, router)
     }
 }
 

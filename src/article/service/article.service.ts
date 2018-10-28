@@ -24,7 +24,7 @@ export class ArticleService {
         }
 
         return Article.find(tmpQuery)
-        // Buch.findOne(query), falls das Suchkriterium eindeutig ist
+        // Article.findOne(query), falls das Suchkriterium eindeutig ist
         // bei findOne(query) wird null zurueckgeliefert, falls nichts gefunden
     }
     @log

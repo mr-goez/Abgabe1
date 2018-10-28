@@ -39,7 +39,7 @@ class SharedRequestHandler {
         }
 
         logger.debug('status = 400')
-        res.status(400).send(`${id} ist keine gueltige Buch-ID`)
+        res.status(400).send(`${id} ist keine gueltige Artikel-ID`)
     }
 
     @log
