@@ -4,6 +4,7 @@ import { inspect } from 'util'
 
 import { getBaseUri, log, logger } from '../../shared'
 import { MIME_CONFIG } from '../../shared/config/mime'
+import { SERVER_CONFIG } from '../../shared/config/server'
 import { Article } from '../model/article'
 import { ArticleService } from '../service/article.service'
 import { EanExistsError, ValidationError } from '../service/exceptions'
@@ -20,7 +21,12 @@ class ArticleRequestHandler {
         logger.debug('Aufruf der Funktion: HelloWorld')
 
         res.header(header)
-        res.json('Hello World!!!')
+        const { host, port } = SERVER_CONFIG
+        res.json([
+            // tslint:disable-next-line:max-line-length
+            { rel: 'list all articles', method: 'GET', href: `https://${host}:${port}/articles`},
+            { rel: 'GraphQL', method: 'POST', href: `https://${host}:${port}/graphql`},
+        ])
     }
 
     @log

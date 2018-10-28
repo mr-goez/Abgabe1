@@ -2,17 +2,10 @@ https://localhost:8443/graphql
 online
 
 {
-  article(id: "0ca33d98-483f-4168-b9c0-86b11ebd3cc6") {
+  articles(id: "0ca33d98-483f-4168-b9c0-86b11ebd3cc6") {
     ean
     price
     manufacturer
-  }
-}
-
-{
-  articles(description: "do") {
-    description
-    availability
   }
 }
 
