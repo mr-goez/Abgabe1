@@ -2,47 +2,25 @@ import { Document } from 'mongoose'
 import * as uuid from 'uuid/v4'
 
 import { log, logger } from '../../shared'
-import { mockDB } from '../../shared/config'
 import { Article, validateArticle } from '../model/article'
-
-import { ArticleServiceMock } from './mock/article.service.mock'
 
 import { EanExistsError, ValidationError } from './exceptions'
 
 export class ArticleService {
-    private readonly mock: ArticleServiceMock | undefined
-
-    constructor() {
-        if (mockDB()) {
-            this.mock = new ArticleServiceMock()
-        }
-    }
-
     @log
     async findById(id: string) {
-        if (this.mock !== undefined) {
-            return this.mock.findById(id)
-        }
         return Article.findById(id)
     }
 
     @log
     async find(query?: any) {
-        if (this.mock !== undefined) {
-            return this.mock.find(query)
-        }
         const tmpQuery = Article.find()
 
-        // alle Buecher asynchron suchen u. aufsteigend nach titel sortieren
-        // nach _id sortieren: Timestamp des INSERTs (Basis: Sek)
-        // https://docs.mongodb.org/manual/reference/object-id
         if (Object.keys(query).length === 0) {
             return tmpQuery.sort('manufacturer')
         }
 
         return Article.find(query)
-        // Buch.findOne(query), falls das Suchkriterium eindeutig ist
-        // bei findOne(query) wird null zurueckgeliefert, falls nichts gefunden
     }
     @log
     async create(article: Document) {
@@ -82,6 +60,20 @@ export class ArticleService {
         )
 
         return articleSaved
+    }
+
+    @log
+    async remove(id: string) {
+        const articlePromise = Article.findByIdAndRemove(id)
+        // entspricht: findOneAndRemove({_id: id})
+
+        articlePromise.then(article =>
+            logger.debug(`Geloescht: ${JSON.stringify(article)}`),
+        )
+
+        // Weitere Methoden von mongoose, um zu loeschen:
+        //    Article.findOneAndRemove(bedingung)
+        //    Article.remove(bedingung)
     }
 
     toString() {

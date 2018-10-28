@@ -12,6 +12,18 @@ class ArticleRequestHandler {
     private readonly articleService = new ArticleService()
 
     @log
+    // tslint:disable-next-line:max-line-length
+    helloWorld(req: Request, res: Response) {
+        // erfüllt keinen Zweck, aber Parameter req ist gefordert.
+        const header = req.header
+        // Noch nicht async+await da kein (asynchroner) DB-Zugriff
+        logger.debug('Aufruf der Funktion: HelloWorld')
+
+        res.header(header)
+        res.json('Hello World!!!')
+    }
+
+    @log
     async findById(req: Request, res: Response) {
         const versionHeader = req.header('If-None-Match')
         const id: string = req.params.id
@@ -89,7 +101,7 @@ class ArticleRequestHandler {
         const payload = []
         for await (const article of articles) {
             const articleResource = this.toJsonPayload(article)
-            // HATEOAS: Atom Links je Buch
+            // HATEOAS: Atom Links je Artikel
             articleResource.links = [
                 { rel: 'self' },
                 { href: `${baseUri}/${article._id}` },
@@ -143,6 +155,23 @@ class ArticleRequestHandler {
         res.sendStatus(201)
     }
 
+    @log
+    async delete(req: Request, res: Response) {
+        const id: string = req.params.id
+        logger.debug(`ArticleRequestHandler.delete id = ${id}`)
+
+        try {
+            await this.articleService.remove(id)
+        } catch (err) {
+            // Inspect muss wieder dazu
+            logger.error(`ArticleRequestHandler.delete Error: ${err}`)
+            res.sendStatus(500)
+            return
+        }
+
+        res.sendStatus(204)
+    }
+
     toString() {
         return 'ArticlehRequestHandler'
     }
@@ -167,7 +196,11 @@ class ArticleRequestHandler {
 const handler = new ArticleRequestHandler()
 
 // hier exportierte Functions:
+export const helloWorld = (req: Request, res: Response) =>
+    handler.helloWorld(req, res)
 export const findById = (req: Request, res: Response) =>
     handler.findById(req, res)
 export const find = (req: Request, res: Response) => handler.find(req, res)
 export const create = (req: Request, res: Response) => handler.create(req, res)
+export const deleteFn = (req: Request, res: Response) =>
+    handler.delete(req, res)

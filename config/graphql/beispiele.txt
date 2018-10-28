@@ -1,0 +1,51 @@
+https://localhost:8443/graphql
+online
+
+{
+  article(id: "0ca33d98-483f-4168-b9c0-86b11ebd3cc6") {
+    ean
+    price
+    manufacturer
+  }
+}
+
+{
+  articles(description: "do") {
+    description
+    availability
+  }
+}
+
+{
+  articles(manufacturer: "a") {
+    ean
+    price
+    availability
+  }
+}
+
+{
+  articles {
+    ean
+    description
+    price
+    availability
+    manufacturer
+  }
+}
+
+mutation {
+  createArticle(
+    ean: 666999
+    description: "This is a test."
+    price: 2000.00
+    availability: true
+    manufacturer: "Tesla Motors"
+  ) {
+    _id
+  }
+}
+
+mutation {
+  deleteArticle(id: "2a40aa5d-24b9-4f94-b077-e7140c00cf25")
+}
