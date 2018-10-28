@@ -7,7 +7,7 @@
         "prestart": "ts-node scripts/init",
         "start": "nodemon -V",
         "pretest": "npm run mongo import && if exist server.log del server.log && ts-node scripts/init",
-        "test": "npx --no-install mocha dist\\buch\\rest\\index.spec.js",
+        "test": "npx --no-install mocha dist\\article\\rest\\index.spec.js",
         "clean": "ts-node scripts/clean",
         "mailserver": "java -jar C:/Zimmermann/fakesmtp/fakeSMTP-2.0.jar -s -p 25000 -m",
         "fixme": "ts-node scripts/fixme",
