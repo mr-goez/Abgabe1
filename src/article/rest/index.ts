@@ -143,6 +143,23 @@ class ArticleRequestHandler {
         res.sendStatus(201)
     }
 
+    @log
+    async delete(req: Request, res: Response) {
+        const id: string = req.params.id
+        logger.debug(`ArticleRequestHandler.delete id = ${id}`)
+
+        try {
+            await this.articleService.remove(id)
+        } catch (err) {
+            // Inspect muss wieder dazu
+            logger.error(`ArticleRequestHandler.delete Error: ${err}`)
+            res.sendStatus(500)
+            return
+        }
+
+        res.sendStatus(204)
+    }
+
     toString() {
         return 'ArticlehRequestHandler'
     }
@@ -171,3 +188,5 @@ export const findById = (req: Request, res: Response) =>
     handler.findById(req, res)
 export const find = (req: Request, res: Response) => handler.find(req, res)
 export const create = (req: Request, res: Response) => handler.create(req, res)
+export const deleteFn = (req: Request, res: Response) =>
+    handler.delete(req, res)

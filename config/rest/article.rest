@@ -23,3 +23,6 @@ POST https://{{host}}/articles
 Content-Type: application/json
 
 < .\article-new-invalid.json
+
+### Loeschen eines vorhandenen Artikels
+DELETE https://{{host}}/articles/7637ca05-0cd5-48a4-a03e-3ada51cee420

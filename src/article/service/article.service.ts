@@ -84,6 +84,20 @@ export class ArticleService {
         return articleSaved
     }
 
+    @log
+    async remove(id: string) {
+        const articlePromise = Article.findByIdAndRemove(id)
+        // entspricht: findOneAndRemove({_id: id})
+
+        articlePromise.then(article =>
+            logger.debug(`Geloescht: ${JSON.stringify(article)}`),
+        )
+
+        // Weitere Methoden von mongoose, um zu loeschen:
+        //    Article.findOneAndRemove(bedingung)
+        //    Article.remove(bedingung)
+    }
+
     toString() {
         return 'ArticleService'
     }
