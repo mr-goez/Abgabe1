@@ -225,3 +225,178 @@ verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"tim
 verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T18:40:35.798Z"}
 debug: Response time: 6.195124 ms {"timestamp":"2018-10-28T18:40:35.802Z"}
 debug: Geloescht: {"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"} {"timestamp":"2018-10-28T18:40:35.805Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-28T19:15:32.587Z"}
+info: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2018-10-28T19:15:32.905Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-28T19:15:35.661Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-28T19:15:35.704Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-28T19:15:52.072Z"}
+info: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2018-10-28T19:15:52.355Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-28T19:15:53.580Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-28T19:15:53.611Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:16.763Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer {{login.response.body.$.token}}",
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "content-length": "139",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:16:16.763Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:16:16.764Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:16:16.764Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:16:16.780Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:16.781Z"}
+verbose: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:16.781Z"}
+verbose: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:16.782Z"}
+debug: 401: TokenInvalidError, Decodieren des Token-Strings liefert kein Token-Objekt {"timestamp":"2018-10-28T19:16:16.782Z"}
+debug: Response time: 21.567010999999997 ms {"timestamp":"2018-10-28T19:16:16.784Z"}
+verbose: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-10-28T19:16:16.786Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-28T19:16:16.786Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:35.869Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "content-length": "25",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:16:35.869Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:16:35.870Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:16:35.870Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:16:35.883Z"}
+verbose: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:36.172Z"}
+verbose: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:36.172Z"}
+verbose: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-10-28T19:16:36.173Z"}
+verbose: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-10-28T19:16:36.173Z"}
+verbose: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-10-28T19:16:36.173Z"}
+verbose: < AuthService.checkPassword(): result = {} {"timestamp":"2018-10-28T19:16:36.179Z"}
+verbose: < AuthService.login(): result = {} {"timestamp":"2018-10-28T19:16:36.180Z"}
+verbose: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-10-28T19:16:36.180Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:36.185Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "content-length": "25",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:16:36.186Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:16:36.186Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:16:36.186Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:16:36.207Z"}
+verbose: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:36.208Z"}
+verbose: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:36.208Z"}
+verbose: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-10-28T19:16:36.209Z"}
+verbose: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-10-28T19:16:36.209Z"}
+verbose: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-10-28T19:16:36.209Z"}
+verbose: < AuthService.checkPassword(): result = {} {"timestamp":"2018-10-28T19:16:36.209Z"}
+verbose: < AuthService.login(): result = {} {"timestamp":"2018-10-28T19:16:36.209Z"}
+verbose: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-10-28T19:16:36.209Z"}
+debug: Response time: 640.109302 ms {"timestamp":"2018-10-28T19:16:36.509Z"}
+debug: Response time: 330.615006 ms {"timestamp":"2018-10-28T19:16:36.516Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:43.550Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "content-length": "25",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:16:43.550Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:16:43.550Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:16:43.551Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:16:43.568Z"}
+verbose: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:43.568Z"}
+verbose: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:16:43.569Z"}
+verbose: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-10-28T19:16:43.569Z"}
+verbose: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-10-28T19:16:43.569Z"}
+verbose: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-10-28T19:16:43.569Z"}
+verbose: < AuthService.checkPassword(): result = {} {"timestamp":"2018-10-28T19:16:43.569Z"}
+verbose: < AuthService.login(): result = {} {"timestamp":"2018-10-28T19:16:43.569Z"}
+verbose: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-10-28T19:16:43.569Z"}
+debug: Response time: 406.675167 ms {"timestamp":"2018-10-28T19:16:43.957Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:17:13.238Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "content-length": "25",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:17:13.238Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:17:13.238Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:17:13.238Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:17:13.241Z"}
+verbose: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:17:13.242Z"}
+verbose: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-10-28T19:17:13.242Z"}
+verbose: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-10-28T19:17:13.242Z"}
+verbose: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-10-28T19:17:13.242Z"}
+verbose: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-10-28T19:17:13.242Z"}
+verbose: < AuthService.checkPassword(): result = {} {"timestamp":"2018-10-28T19:17:13.243Z"}
+verbose: < AuthService.login(): result = {} {"timestamp":"2018-10-28T19:17:13.243Z"}
+verbose: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-10-28T19:17:13.243Z"}
+debug: Response time: 335.238478 ms {"timestamp":"2018-10-28T19:17:13.573Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:17:17.073Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:17:17.073Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:17:17.073Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:17:17.073Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:17:17.076Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-28T19:17:17.077Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-28T19:17:17.077Z"}
+debug: > ArticleService.find(): args = [{}] {"timestamp":"2018-10-28T19:17:17.077Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-28T19:17:17.081Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-28T19:17:17.081Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"f3d1e940-66ac-44e0-bb85-fae2a980141f","ean":161180,"description":"Commodo do occaecat enim dolor ex officia cillum laboris duis enim dolore mollit.","price":3954.98,"availability":true,"manufacturer":"aliqua"},{"_id":"1919bbaf-b598-4f7b-b975-0b801be4c1a2","ean":911631,"description":"Ut Lorem nisi esse voluptate nulla dolor qui laboris fugiat.","price":1995.34,"availability":true,"manufacturer":"aute"},{"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"},{"_id":"2a40aa5d-24b9-4f94-b077-e7140c00cf25","ean":356669,"description":"Elit velit magna labore qui magna amet ex occaecat ut qui.","price":1080.34,"availability":false,"manufacturer":"ea"},{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"},{"_id":"0ceaa16c-a9f4-4b57-b0b4-3b93de2b7684","ean":733096,"description":"Voluptate sint enim est tempor officia pariatur do aute sunt minim veniam amet proident.","price":3824.01,"availability":true,"manufacturer":"est"},{"_id":"3b953e19-4264-49d2-a98d-ed1b2b36d37f","ean":737771,"description":"Consectetur nostrud quis in ut cillum enim minim aliquip culpa aliqua commodo reprehenderit esse ea.","price":2621.49,"availability":true,"manufacturer":"minim"}] {"timestamp":"2018-10-28T19:17:17.112Z"}
+debug: Response time: 70.387771 ms {"timestamp":"2018-10-28T19:17:17.143Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:17:45.441Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:17:45.441Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:17:45.441Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:17:45.441Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:17:45.444Z"}
+debug: > ArticlehRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-10-28T19:17:45.445Z"}
+debug: ArticleRequestHandler.find queryParams = {"ean":"781641"} {"timestamp":"2018-10-28T19:17:45.445Z"}
+debug: > ArticleService.find(): args = [{"ean":"781641"}] {"timestamp":"2018-10-28T19:17:45.445Z"}
+debug: < ArticleService.find(): result = {} {"timestamp":"2018-10-28T19:17:45.445Z"}
+debug: < ArticlehRequestHandler.find(): result = {} {"timestamp":"2018-10-28T19:17:45.445Z"}
+debug: ArticleRequestHandler.find: article = [{"_id":"0ca33d98-483f-4168-b9c0-86b11ebd3cc6","ean":781641,"description":"Voluptate velit anim ad do quis proident mollit cupidatat magna labore in consequat est ullamco.","price":2810.58,"availability":false,"manufacturer":"esse"}] {"timestamp":"2018-10-28T19:17:45.448Z"}
+debug: Response time: 9.279791999999999 ms {"timestamp":"2018-10-28T19:17:45.450Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-10-28T19:19:00.968Z"}
+info: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2018-10-28T19:19:01.254Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-10-28T19:19:02.491Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg> C {"timestamp":"2018-10-28T19:19:02.504Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:19:08.021Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:19:08.022Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:19:08.022Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:19:08.022Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:19:08.047Z"}
+debug: > ArticlehRequestHandler.helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-28T19:19:08.050Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-28T19:19:08.050Z"}
+debug: Response time: 32.179283999999996 ms {"timestamp":"2018-10-28T19:19:08.053Z"}
+debug: < ArticlehRequestHandler.helloWorld(): result = void || undefined {"timestamp":"2018-10-28T19:19:08.055Z"}
+verbose: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-10-28T19:19:48.727Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "host": "127.0.0.1:8443",
+  "connection": "keep-alive"
+} {"timestamp":"2018-10-28T19:19:48.727Z"}
+debug: Request: protocol="https" {"timestamp":"2018-10-28T19:19:48.727Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-10-28T19:19:48.728Z"}
+verbose: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-10-28T19:19:48.730Z"}
+verbose: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-10-28T19:19:48.732Z"}
+debug: > ArticlehRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-10-28T19:19:48.732Z"}
+debug: ArticleRequestHandler.findById id = 7637ca05-0cd5-48a4-a03e-3ada51cee420 {"timestamp":"2018-10-28T19:19:48.733Z"}
+debug: > ArticleService.findById(): args = ["7637ca05-0cd5-48a4-a03e-3ada51cee420"] {"timestamp":"2018-10-28T19:19:48.733Z"}
+debug: < ArticleService.findById(): result = {} {"timestamp":"2018-10-28T19:19:48.735Z"}
+debug: < ArticlehRequestHandler.findById(): result = {} {"timestamp":"2018-10-28T19:19:48.735Z"}
+verbose: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-10-28T19:19:48.735Z"}
+debug: ArticleRequestHandler.findById (): article = {"_id":"7637ca05-0cd5-48a4-a03e-3ada51cee420","ean":409010,"description":"Dolore velit sit do velit ut non eiusmod.","price":2979.59,"availability":true,"manufacturer":"dolore"} {"timestamp":"2018-10-28T19:19:48.775Z"}
+debug: ArticleRequestHandler.findById VersionDb = undefined {"timestamp":"2018-10-28T19:19:48.776Z"}
+debug: Response time: 49.397701999999995 ms {"timestamp":"2018-10-28T19:19:48.777Z"}
