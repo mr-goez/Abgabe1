@@ -5,7 +5,7 @@ import * as express from 'express'
 import { json, urlencoded } from 'body-parser'
 
 import { create, find, helloWorld } from './article/rest'
-import { login, validateJwt, isAdminMitarbeiter } from './auth/rest'
+import { isAdminMitarbeiter, login, validateJwt } from './auth/rest'
 import { validateContentType } from './shared/request-handler'
 
 export const PATHS = {

@@ -1320,3 +1320,38 @@ debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-28T11:16:48.4
 debug: < [object Object].find(): result = {} {"timestamp":"2018-10-28T11:16:48.435Z"}
 debug: < [object Object].find(): result = {} {"timestamp":"2018-10-28T11:16:48.435Z"}
 debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"d7c3efd6-a50e-47e8-ad44-52a7f3e00121","ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"471daff5-8ca8-4565-9160-09092fdb8a2e","ean":323457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"7a09ea9b-cb7b-4b93-903b-24c676b36888","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-28T11:16:48.437Z"}
+verbose: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:31.624Z"}
+verbose: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:31.624Z"}
+verbose: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-10-28T11:54:31.624Z"}
+verbose: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-10-28T11:54:31.624Z"}
+verbose: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-10-28T11:54:31.624Z"}
+verbose: < AuthService.checkPassword(): result = {} {"timestamp":"2018-10-28T11:54:31.625Z"}
+verbose: < AuthService.login(): result = {} {"timestamp":"2018-10-28T11:54:31.625Z"}
+verbose: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-10-28T11:54:31.625Z"}
+debug: > [object Object].helloWorld(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:36.510Z"}
+debug: Aufruf der Funktion: HelloWorld {"timestamp":"2018-10-28T11:54:36.510Z"}
+debug: < [object Object].helloWorld(): result = void || undefined {"timestamp":"2018-10-28T11:54:36.510Z"}
+debug: > [object Object].find(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:38.265Z"}
+debug: ArticleRequestHandler.find queryParams = {} {"timestamp":"2018-10-28T11:54:38.265Z"}
+debug: > [object Object].find(): args = [{}] {"timestamp":"2018-10-28T11:54:38.265Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-28T11:54:38.266Z"}
+debug: < [object Object].find(): result = {} {"timestamp":"2018-10-28T11:54:38.266Z"}
+debug: ArticleRequestHandler.find: buecher = [{"_id":"26ea308c-9b66-4386-9d71-09fdd04d679d","ean":123456,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"03031d6a-a0be-449c-a866-9ff19e563056","ean":123457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"d7c3efd6-a50e-47e8-ad44-52a7f3e00121","ean":223457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"471daff5-8ca8-4565-9160-09092fdb8a2e","ean":323457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0},{"_id":"7a09ea9b-cb7b-4b93-903b-24c676b36888","ean":523457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","__v":0}] {"timestamp":"2018-10-28T11:54:38.269Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:40.375Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-28T11:54:40.375Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:40.376Z"}
+debug: ArticleRequestHandler.create post body: {"ean":623457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"} {"timestamp":"2018-10-28T11:54:40.376Z"}
+debug: > [object Object].create(): args = [{"ean":623457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh"}] {"timestamp":"2018-10-28T11:54:40.376Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-28T11:54:40.376Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-28T11:54:40.376Z"}
+debug: Der Artikel ist abgespeichert: {"ean":623457,"description":"Put Test","price":199960,"availability":true,"manufacturer":"TestGmBh","_id":"8c5af23d-8dd9-43fd-b635-e1ca6e825382","__v":0} {"timestamp":"2018-10-28T11:54:40.380Z"}
+debug: ArticleRequestHandler.create: location = https://127.0.0.1:8443/articles/8c5af23d-8dd9-43fd-b635-e1ca6e825382 {"timestamp":"2018-10-28T11:54:40.381Z"}
+verbose: > SharedRequestHandler.validateContentType(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:42.685Z"}
+verbose: < SharedRequestHandler.validateContentType(): result = void || undefined {"timestamp":"2018-10-28T11:54:42.685Z"}
+debug: > [object Object].create(): args = <RequestResponse> {"timestamp":"2018-10-28T11:54:42.685Z"}
+debug: ArticleRequestHandler.create post body: {"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"} {"timestamp":"2018-10-28T11:54:42.691Z"}
+debug: > [object Object].create(): args = [{"description":"Put  Invalid","availability":false,"manufacturer":"TestAG"}] {"timestamp":"2018-10-28T11:54:42.692Z"}
+debug: Validation Message: {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-28T11:54:42.692Z"}
+debug: ValidationError.constructor(): {"ean":"Der Artikel muss eine EAN haben."} {"timestamp":"2018-10-28T11:54:42.693Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-28T11:54:42.701Z"}
+debug: < [object Object].create(): result = {} {"timestamp":"2018-10-28T11:54:42.701Z"}
