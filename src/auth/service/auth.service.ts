@@ -1,28 +1,4 @@
 // tslint:disable:max-file-line-count
-
-/*
- * Copyright (C) 2016 - present Juergen Zimmermann, Hochschule Karlsruhe
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-// Alternativen zu bcrypt:
-//  scrypt: https://www.tarsnap.com/scrypt.html
-//  Argon2: https://github.com/p-h-c/phc-winner-argon2
-//  SHA-Algorithmen und PBKDF2 sind anfaelliger bei Angriffen mittels GPUs
-//  http://blog.rangle.io/how-to-store-user-passwords-and-overcome-security-threats-in-2017
-//  https://stormpath.com/blog/secure-password-hashing-in-node-with-argon2
 import { compare, hash } from 'bcrypt'
 import { Request } from 'express'
 import { readFileSync } from 'fs'

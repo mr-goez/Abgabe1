@@ -48,11 +48,13 @@ class App {
         // index
         const router = Router()
         router.route('/').get(helloWorld)
+
         this.app.use(router)
         this.articleGraphQLRoutes()
     }
 
     private articleRoutes() {
+        // post
         const router = Router()
         router
             .route('/')
@@ -64,7 +66,7 @@ class App {
                 json(),
                 create,
             )
-
+        // delete
         const idParam = 'id'
         router
             .param(idParam, validateUUID)
@@ -74,6 +76,7 @@ class App {
         this.app.use(PATHS.articles, router)
     }
 
+    // login
     private loginRoutes() {
         const router = Router()
         router.route('/').post(
@@ -86,6 +89,7 @@ class App {
         this.app.use(PATHS.login, router)
     }
 
+    // graphQL
     private articleGraphQLRoutes() {
         const middleware = graphqlHTTP({
             schema: graphqlSchema,
