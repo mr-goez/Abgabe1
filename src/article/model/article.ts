@@ -31,7 +31,7 @@ schema.plugin(beautifyUnique)
 schema.plugin(errorTransform)
 
 // tslint:disable-next-line:variable-name
-export const Article = model<ArticleDocument>('Article', schema)
+export const Article = model<ArticleDocument>('article', schema)
 
 // const isPresent = (obj: string | undefined) => obj !== undefined && obj !== null
 const isEmpty = (obj: string | undefined) =>

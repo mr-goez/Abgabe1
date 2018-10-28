@@ -2,16 +2,11 @@ import { Request, Response } from 'express'
 import * as mongoose from 'mongoose'
 import { inspect } from 'util'
 
-import { log, logger } from '../../shared'
-
+import { getBaseUri, log, logger } from '../../shared'
 import { MIME_CONFIG } from '../../shared/config/mime'
-
 import { Article } from '../model/article'
-
 import { ArticleService } from '../service/article.service'
 import { EanExistsError, ValidationError } from '../service/exceptions'
-
-import { getBaseUri } from '../../shared/base-uri'
 
 class ArticleRequestHandler {
     private readonly articleService = new ArticleService()
@@ -26,6 +21,55 @@ class ArticleRequestHandler {
 
         res.header(header)
         res.json('Hello World!!!')
+    }
+
+    @log
+    async findById(req: Request, res: Response) {
+        const versionHeader = req.header('If-None-Match')
+        const id: string = req.params.id
+        logger.debug(`ArticleRequestHandler.findById id = ${id}`)
+
+        let article: mongoose.Document | null
+        try {
+            article = await this.articleService.findById(id)
+        } catch (err) {
+            logger.error(
+                `ArticleRequestHandler.findById Error: ${inspect(err)}`,
+            )
+            res.sendStatus(500)
+            return
+        }
+
+        if (article === null) {
+            logger.debug('ArticleRequestHandler.findById status = 404')
+            res.sendStatus(404)
+            return
+        }
+
+        logger.debug(
+            `ArticleRequestHandler.findById (): article = ${JSON.stringify(
+                article,
+            )}`,
+        )
+        const versionDb = article.__v
+        if (versionHeader === `${versionDb}`) {
+            res.sendStatus(304)
+            return
+        }
+        logger.debug(`ArticleRequestHandler.findById VersionDb = ${versionDb}`)
+        res.header('ETag', `"${versionDb}"`)
+
+        const baseUri = getBaseUri(req)
+        const payload = this.toJsonPayload(article)
+        // HATEOAS: Atom Links
+        payload._links = {
+            self: { href: `${baseUri}/${id}` },
+            list: { href: `${baseUri}` },
+            // add: { href: `${baseUri}` },
+            // update: { href: `${baseUri}/${id}` },
+            // remove: { href: `${baseUri}/${id}` },
+        }
+        res.json(payload)
     }
 
     @log
@@ -44,13 +88,9 @@ class ArticleRequestHandler {
         }
 
         logger.debug(
-            `ArticleRequestHandler.find: buecher = ${JSON.stringify(articles)}`,
+            `ArticleRequestHandler.find: article = ${JSON.stringify(articles)}`,
         )
         if (articles.length === 0) {
-            // Alternative: https://www.npmjs.com/package/http-errors
-            // Damit wird aber auch der Stacktrace zum Client
-            // uebertragen, weil das resultierende Fehlerobjekt
-            // von Error abgeleitet ist.
             logger.debug('status = 404')
             res.sendStatus(404)
             return
@@ -115,6 +155,27 @@ class ArticleRequestHandler {
         res.sendStatus(201)
     }
 
+    @log
+    async delete(req: Request, res: Response) {
+        const id: string = req.params.id
+        logger.debug(`ArticleRequestHandler.delete id = ${id}`)
+
+        try {
+            await this.articleService.remove(id)
+        } catch (err) {
+            // Inspect muss wieder dazu
+            logger.error(`ArticleRequestHandler.delete Error: ${err}`)
+            res.sendStatus(500)
+            return
+        }
+
+        res.sendStatus(204)
+    }
+
+    toString() {
+        return 'ArticlehRequestHandler'
+    }
+
     private toJsonPayload(article: mongoose.Document): any {
         const {
             ean,
@@ -137,5 +198,9 @@ const handler = new ArticleRequestHandler()
 // hier exportierte Functions:
 export const helloWorld = (req: Request, res: Response) =>
     handler.helloWorld(req, res)
+export const findById = (req: Request, res: Response) =>
+    handler.findById(req, res)
 export const find = (req: Request, res: Response) => handler.find(req, res)
 export const create = (req: Request, res: Response) => handler.create(req, res)
+export const deleteFn = (req: Request, res: Response) =>
+    handler.delete(req, res)

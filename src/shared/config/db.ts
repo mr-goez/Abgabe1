@@ -1,3 +1,4 @@
+import * as minimist from 'minimist'
 import * as mongoose from 'mongoose'
 import { inspect } from 'util'
 
@@ -19,7 +20,17 @@ mongoose.pluralize(undefined)
 mongoose.set('useFindAndModify', false)
 mongoose.set('useCreateIndex', true)
 
+export const mockDB = () => {
+    const argv = minimist(process.argv.slice(0))
+    return argv._[2] === 'mock'
+}
+
 export const connectDB: () => void = async () => {
+    if (mockDB()) {
+        console.warn('Mocking: Keine DB-Verbindung')
+        return
+    }
+
     const { connection } = mongoose
     try {
         await mongoose.connect(

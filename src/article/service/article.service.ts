@@ -16,16 +16,11 @@ export class ArticleService {
     async find(query?: any) {
         const tmpQuery = Article.find()
 
-        // alle Buecher asynchron suchen u. aufsteigend nach titel sortieren
-        // nach _id sortieren: Timestamp des INSERTs (Basis: Sek)
-        // https://docs.mongodb.org/manual/reference/object-id
         if (Object.keys(query).length === 0) {
-            return tmpQuery.sort('ean')
+            return tmpQuery.sort('manufacturer')
         }
 
-        return Article.find(tmpQuery)
-        // Article.findOne(query), falls das Suchkriterium eindeutig ist
-        // bei findOne(query) wird null zurueckgeliefert, falls nichts gefunden
+        return Article.find(query)
     }
     @log
     async create(article: Document) {
@@ -65,5 +60,23 @@ export class ArticleService {
         )
 
         return articleSaved
+    }
+
+    @log
+    async remove(id: string) {
+        const articlePromise = Article.findByIdAndRemove(id)
+        // entspricht: findOneAndRemove({_id: id})
+
+        articlePromise.then(article =>
+            logger.debug(`Geloescht: ${JSON.stringify(article)}`),
+        )
+
+        // Weitere Methoden von mongoose, um zu loeschen:
+        //    Article.findOneAndRemove(bedingung)
+        //    Article.remove(bedingung)
+    }
+
+    toString() {
+        return 'ArticleService'
     }
 }
